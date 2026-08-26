@@ -4,6 +4,7 @@ PREFIX sh: <http://www.w3.org/ns/shacl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX cdm1: <https://w3id.org/citydata/part1/v1/>
 PREFIX cdm2: <https://w3id.org/citydata/part2/v1/>
+PREFIX i72: <https://w3id.org/citydata/21972/v1/>
 PREFIX its-core: <https://w3id.org/itsdata/core/v1/>
 PREFIX its-time: <https://w3id.org/itsdata/time/v1/>
 PREFIX its-location: <https://w3id.org/itsdata/location/v1/>
@@ -88,52 +89,7 @@ PREFIX vann: <http://purl.org/vocab/vann/>
         sh:path :pictogram ;
         sh:node its-core:ExactlyOneShape ;
         sh:datatype its-core:oidstring ;
-    ] .
-
-:CompositeSignShape a sh:NodeShape ;
-    sh:targetClass :CompositeSign ;
-    sh:and ( :InternationalSignShape ) ;
-
-    sh:property [
-        sh:path :simpleSignList ;
-        sh:node its-core:ExactlyOneShape ;
-        sh:node :CompositeSignListShape ;
-        skos:note "The first SimpleSign is the main sign, the rest are an ordered list of supplemental signs."@en ;
-        skos:editorsNote "GDD defines as a SimpleSign, but presumably, the intent was for a SEQUENCE OF SimpleSign"@en ;
-    ] .
-
-:CompositeSignListShape a sh:NodeShape ;
-    skos:definition "An rdf:List whose every rdf:first is a SimpleSign and whose chain ends at rdf:nil (non-empty list)."@en ;
-
-    sh:property [
-        sh:path rdf:first ;
-        sh:node its-core:ExactlyOneShape ;
-        sh:class :SimpleSign ;
-        sh:message "Each list cell must have exactly one SimpleSign as rdf:first."@en ;
     ] ;
-    sh:xone (
-        [
-            sh:property [
-                sh:path rdf:rest ;
-                sh:minCount 1 ;
-                sh:maxCount 1 ;
-                sh:hasValue rdf:nil ;
-            ]
-        ]
-        [
-            sh:property [
-                sh:path rdf:rest ;
-                sh:minCount 1 ;
-                sh:maxCount 1 ;
-                sh:node :CompositeSignListShape ;
-                sh:message "rdf:rest must be rdf:nil or another non-empty SimpleSign list cell."@en ;
-            ]
-        ]
-    ) .
-
-:SimpleSignShape a sh:NodeShape ;
-    sh:targetClass :SimpleSign ;
-    sh:and ( :InternationalSignShape ) ;
 
     sh:property [
         sh:path :hasCondition ;
@@ -142,9 +98,35 @@ PREFIX vann: <http://purl.org/vocab/vann/>
     ] ;
 
     sh:property [
-        sh:path :hasDetails ;
-        sh:node its-core:MinOneShape ;
-        sh:class :TypeOfRegulation ;
+        sh:path :hasContext ;
+        sh:node its-core:UnlimitedShape ;
+        sh:class :RegulationContextCode ;
+    ] ;
+
+    sh:property [
+        sh:path :hasFeeSchedule ;
+        sh:node its-core:MaxOneShape ;
+        sh:class :FeeSchedule ;
+    ] ;
+
+    sh:property [
+        sh:path :hasThreshold ;
+        sh:node its-core:MaxOneShape ;
+        sh:class i72:Measure ;
+    ] ;
+
+    sh:property [
+        sh:path :hasTextualRestriction ;
+        sh:node its-core:MaxOneShape ;
+        sh:class rdf:langString ;
+    ] ;
+
+    sh:property [
+        sh:path :hasComponentSign ;
+        sh:node its-core:UnlimitedShape ;
+        sh:class :InternationalSign ;
+        skos:note "The component signs are an ordered list of supplemental signs."@en ;
+        skos:editorsNote "GDD defines as a SimpleSign, but presumably, the intent was for a SEQUENCE OF SimpleSign. This places the main sign as part of the InternationalSign and supplemental signs as a sequence of component signs (which can be complex themselves)."@en ;
     ] .
 
 :PavementMarkingShape a sh:NodeShape ;

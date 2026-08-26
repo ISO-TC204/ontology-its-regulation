@@ -1,0 +1,24 @@
+// Diagram for RegulationCategoryCodeList
+digraph {
+	graph [overlap=false rankdir=TB splines=true]
+	node [fontname=Arial fontsize=12 margin=0 shape=none]
+	edge [fontname=Arial fontsize=11]
+	{
+		rank=source
+		RegulationThing [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">RegulationThing</TD></TR></TABLE>> URL="../RegulationThing" margin=0]
+	}
+	RegulationCategoryCodeList [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">RegulationCategoryCodeList</TD></TR></TABLE>> URL="../RegulationCategoryCodeList" margin=0]
+	{
+		rank=max
+	}
+	subgraph cluster_associated {
+		label="" style=invis
+		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]
+		RegulationCategoryCode [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">RegulationCategoryCode</TD></TR></TABLE>> URL="../RegulationCategoryCode" margin=0]
+	}
+	RegulationCategoryCodeList -> RegulationThing [arrowhead=onormal style=solid]
+	RegulationCategoryCodeList -> Invis [style=invis]
+	Invis -> RegulationCategoryCode [style=invis]
+	RegulationCategoryCode [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">RegulationCategoryCode</TD></TR></TABLE>> URL="../RegulationCategoryCode" margin=0]
+	RegulationCategoryCodeList -> RegulationCategoryCode [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="4" BGCOLOR="white"><TR><TD ALIGN="CENTER">cdm1:hasComponent</TD></TR></TABLE>> arrowhead=normal style=solid]
+}

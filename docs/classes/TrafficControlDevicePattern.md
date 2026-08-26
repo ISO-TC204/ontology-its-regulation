@@ -14,20 +14,20 @@ This pattern consists of the following classes:
 - [Access Control Type Code](AccessControlTypeCode.md)
 - [Channelization Device](ChannelizationDevice.md)
 - [Channelization Type Code](ChannelizationTypeCode.md)
-- [Composite Sign](CompositeSign.md)
 - [Destination Info](DestinationInfo.md)
 - [International Sign](InternationalSign.md)
 - [Pavement Marking](PavementMarking.md)
 - [Pavement Marking Type Code](PavementMarkingTypeCode.md)
 - [Road Surface Feature](RoadSurfaceFeature.md)
 - [Road Surface Feature Type Code](RoadSurfaceFeatureTypeCode.md)
+- [Sign Attribute](SignAttribute.md)
 - [Sign Destination](SignDestination.md)
-- [Simple Sign](SimpleSign.md)
 - [Text Composite](TextComposite.md)
 - [Traffic Control Device](TrafficControlDevice.md)
 - [Traffic Signal](TrafficSignal.md)
 - [Traffic Signal Device](TrafficSignalDevice.md)
 - [Warning Beacon](WarningBeacon.md)
+
 This module defines the following properties:
 
 - [accessControlType](../properties/accessControlType.md)
@@ -40,12 +40,13 @@ This module defines the following properties:
 - [divergeHorizon](../properties/divergeHorizon.md)
 - [divergeName](../properties/divergeName.md)
 - [divergeRoute](../properties/divergeRoute.md)
+- [hasComponentSign](../properties/hasComponentSign.md)
+- [hasDetails](../properties/hasDetails.md)
 - [image](../properties/image.md)
 - [nationalSignId](../properties/nationalSignId.md)
 - [pavementMarkingType](../properties/pavementMarkingType.md)
 - [pictogram](../properties/pictogram.md)
 - [roadSurfaceFeatureType](../properties/roadSurfaceFeatureType.md)
-- [simpleSignList](../properties/simpleSignList.md)
 - [url](../properties/url.md)
 
 

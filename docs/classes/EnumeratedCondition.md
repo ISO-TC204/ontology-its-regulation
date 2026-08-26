@@ -4,6 +4,8 @@
 
 A condition that is based on an enumerated value in a known code list.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/EnumeratedCondition`
+
 
 ## Diagram
 
@@ -92,4 +94,10 @@ A condition that is based on an enumerated value in a known code list.
 | [forEnumeratedCondition](../properties/forEnumeratedCondition.md) | exactly 1 [ConditionCode](https://w3id.org/itsdata/regulation/v1/ConditionCode) |
 | [otherCondition](../properties/otherCondition.md) | 0..* rdf:langString (one per language) |
 | subClassOf | [Condition](Condition.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-19 |
 

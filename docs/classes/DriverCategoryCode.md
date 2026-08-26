@@ -6,6 +6,8 @@ A code that indicates categories of drivers that can affect the applicability of
 
 EXAMPLE: learners, provisional (underage), commercial, etc.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/DriverCategoryCode`
+
 
 ## Diagram
 
@@ -68,6 +70,7 @@ EXAMPLE: learners, provisional (underage), commercial, etc.
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-18 |
 | [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II DriverCondition |
 | [skos:editorialNote](https://w3id.org/citydata/imported/skos/editorialNote) | DATEX-II DriverCondition seems to have multiple ways to convey the same information (e.g., learner as either a license characteristic or a driver characteristic). This proposed to move most of the 'driver characteristic' information to the PermitCondition class. |
 

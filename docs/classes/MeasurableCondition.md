@@ -4,6 +4,8 @@
 
 A condition that is based on a comparison between a measurable value and a threshold value.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/MeasurableCondition`
+
 
 ## Diagram
 
@@ -47,19 +49,19 @@ A condition that is based on a comparison between a measurable value and a thres
     </g>
     <!-- Invis -->
     <!-- MeasurableCondition&#45;&gt;Invis -->
-    <!-- cdm1_Measure -->
+    <!-- i72_Measure -->
     <g id="node4" class="node">
-    <title>cdm1_Measure</title>
-    <g id="a_node4"><a xlink:href="https://w3id.org/citydata/part1/v1/Measure" xlink:title="&lt;TABLE&gt;">
-    <polygon fill="lightgray" stroke="none" points="65.62,-175.38 65.62,-191.62 146.38,-191.62 146.38,-175.38 65.62,-175.38"/>
-    <text xml:space="preserve" text-anchor="start" x="66.62" y="-179.38" font-family="Arial" font-size="12.00">cdm1:Measure</text>
-    <polygon fill="none" stroke="black" points="64.62,-174.38 64.62,-192.62 147.38,-192.62 147.38,-174.38 64.62,-174.38"/>
+    <title>i72_Measure</title>
+    <g id="a_node4"><a xlink:href="https://w3id.org/citydata/21972/v1/Measure" xlink:title="&lt;TABLE&gt;">
+    <polygon fill="lightgray" stroke="none" points="72,-175.38 72,-191.62 140,-191.62 140,-175.38 72,-175.38"/>
+    <text xml:space="preserve" text-anchor="start" x="73" y="-179.38" font-family="Arial" font-size="12.00">i72:Measure</text>
+    <polygon fill="none" stroke="black" points="71,-174.38 71,-192.62 141,-192.62 141,-174.38 71,-174.38"/>
     </a>
     </g>
     </g>
-    <!-- MeasurableCondition&#45;&gt;cdm1_Measure -->
+    <!-- MeasurableCondition&#45;&gt;i72_Measure -->
     <g id="edge8" class="edge">
-    <title>MeasurableCondition&#45;&gt;cdm1_Measure</title>
+    <title>MeasurableCondition&#45;&gt;i72_Measure</title>
     <path fill="none" stroke="black" d="M144.82,-364.26C135.71,-355.5 125.77,-344.01 120.25,-331.5 103.23,-292.95 102.19,-243.31 103.63,-212.71"/>
     <polygon fill="black" stroke="black" points="107.12,-212.93 104.23,-202.73 100.13,-212.5 107.12,-212.93"/>
     <polygon fill="white" stroke="none" points="120.25,-284 120.25,-327 210,-327 210,-284 120.25,-284"/>
@@ -79,11 +81,11 @@ A condition that is based on a comparison between a measurable value and a thres
     <!-- MeasurableCondition&#45;&gt;its&#45;core_ComparisonOperatorCode -->
     <g id="edge7" class="edge">
     <title>MeasurableCondition&#45;&gt;its&#45;core_ComparisonOperatorCode</title>
-    <path fill="none" stroke="black" d="M186.3,-364.05C195.45,-355.41 205.14,-344.07 210,-331.5 217.61,-311.81 214.37,-304.65 210,-284 197.73,-225.99 187.55,-212.2 156,-162 149.77,-152.09 141.83,-142.1 134.31,-133.46"/>
-    <polygon fill="black" stroke="black" points="137,-131.22 127.72,-126.12 131.8,-135.9 137,-131.22"/>
-    <polygon fill="white" stroke="none" points="205.8,-223 205.8,-266 312.05,-266 312.05,-223 205.8,-223"/>
-    <text xml:space="preserve" text-anchor="start" x="209.8" y="-251.5" font-family="Arial" font-size="11.00">comparisonOperator</text>
-    <text xml:space="preserve" text-anchor="start" x="255.93" y="-230" font-family="Arial" font-size="11.00">1</text>
+    <path fill="none" stroke="black" d="M186.3,-364.05C195.45,-355.41 205.14,-344.07 210,-331.5 217.61,-311.81 214.78,-304.56 210,-284 196.3,-225.12 155.86,-165.9 130.8,-133.38"/>
+    <polygon fill="black" stroke="black" points="133.74,-131.45 124.81,-125.75 128.23,-135.78 133.74,-131.45"/>
+    <polygon fill="white" stroke="none" points="204.96,-223 204.96,-266 311.21,-266 311.21,-223 204.96,-223"/>
+    <text xml:space="preserve" text-anchor="start" x="208.96" y="-251.5" font-family="Arial" font-size="11.00">comparisonOperator</text>
+    <text xml:space="preserve" text-anchor="start" x="255.09" y="-230" font-family="Arial" font-size="11.00">1</text>
     </g>
     <!-- MeasurableConditionCode -->
     <g id="node6" class="node">
@@ -104,8 +106,8 @@ A condition that is based on a comparison between a measurable value and a thres
     <text xml:space="preserve" text-anchor="start" x="349" y="-190.5" font-family="Arial" font-size="11.00">forMeasurableCondition</text>
     <text xml:space="preserve" text-anchor="start" x="403.38" y="-169" font-family="Arial" font-size="11.00">1</text>
     </g>
-    <!-- Invis&#45;&gt;cdm1_Measure -->
-    <!-- cdm1_Measure&#45;&gt;its&#45;core_ComparisonOperatorCode -->
+    <!-- Invis&#45;&gt;i72_Measure -->
+    <!-- i72_Measure&#45;&gt;its&#45;core_ComparisonOperatorCode -->
     <!-- its&#45;core_ComparisonOperatorCode&#45;&gt;MeasurableConditionCode -->
     </g>
     </svg>
@@ -126,6 +128,11 @@ A condition that is based on a comparison between a measurable value and a thres
 | [forMeasurableCondition](../properties/forMeasurableCondition.md) | exactly 1 |
 | [forMeasurableCondition](../properties/forMeasurableCondition.md) | exactly 1 [MeasurableConditionCode](https://w3id.org/itsdata/regulation/v1/MeasurableConditionCode) |
 | [valueToCompare](../properties/valueToCompare.md) | exactly 1 |
-| [valueToCompare](../properties/valueToCompare.md) | exactly 1 [cdm1:Measure](https://w3id.org/citydata/part1/v1/Measure) |
 | subClassOf | [Condition](Condition.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-25 |
 

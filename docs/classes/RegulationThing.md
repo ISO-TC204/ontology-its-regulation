@@ -4,6 +4,8 @@
 
 A class to organize all classes defined in the Traffic Regulation topic area of the ITS Ontology.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/RegulationThing`
+
 
 ## Diagram
 
@@ -67,15 +69,13 @@ A class to organize all classes defined in the Traffic Regulation topic area of 
 | [Coded Regulation](CodedRegulation.md) | A restriction defined by a code. |
 | [Coded Regulation With Fee](CodedRegulationWithFee.md) | A condition defined by a code. |
 | [Coded Regulation With Threshold](CodedRegulationWithThreshold.md) | A restriction defined by a code coupled with a threshold value. |
-| [Code Pair Regulation Code](CodePairRegulationCode.md) | A code indicating the type of regulation that is associated with a code pair. |
-| [Composite Sign](CompositeSign.md) | A single traffic-control unit whose content is an ordered sequence of one or more SimpleSigns, represented as an rdf:List: rdf:first is the main sign, and each rdf:rest step is the next panel in order (for example supplemental signs). |
 | [Condition](Condition.md) | A boolean condition that must evaluate to true for the associated regulation(s) to currently apply. Even if the condition is true, it is not active if it is currently overridden. The condition may be multi-part. |
 | [Condition Set](ConditionSet.md) | A composite condition that consists of two or more Conditions combined by a logical operator; the set must evaluate to true for the associated regulation(s) to currently apply. |
-| [Context Regulation Code](ContextRegulationCode.md) | A code indicating the context of a regulation that is associated with a code pair. |
 | [Enumerated Condition](EnumeratedCondition.md) | A condition that is based on an enumerated value in a known code list. |
-| [Fee Regulation Code](FeeRegulationCode.md) | A code indicating the type of regulation that is associated with a fee schedule. |
+| [Fee Restriction Code](FeeRestrictionCode.md) | A code indicating the type of regulation that is associated with a fee schedule. |
 | [International Sign](InternationalSign.md) | A traffic control device that is used to convey information to road users, such as regulatory, warning, or guide signs. |
 | [Legal Basis](LegalBasis.md) | A legal basis provides references to the legal documents that authorize an entity to issue the types of regulations covered by a traffic regulation order. |
+| [Legal Status Code](LegalStatusCode.md) | A code that indicates the legal status of a traffic regulation. |
 | [Location Condition](LocationCondition.md) | A condition that applies to a specific location. |
 | [Measurable Condition](MeasurableCondition.md) | A condition that is based on a comparison between a measurable value and a threshold value. |
 | [Pavement Marking](PavementMarking.md) | A device that is used to mark the pavement, such as lines, symbols, or text. |
@@ -89,16 +89,19 @@ A class to organize all classes defined in the Traffic Regulation topic area of 
 | [Permit Type](PermitType.md) | A category of certificate that the grantor is able to issue to designate a grantee as a specific type of entity. |
 | [Reason Code](ReasonCode.md) | A code indicating the reason for the traffic regulation order. |
 | [Registration Machine](RegistrationMachine.md) | A machine that is used to register the permit. |
-| [Regulation Code](RegulationCode.md) | A code used to identify a category of regulation. |
-| [Regulation Code List](RegulationCodeList.md) | A list of rule categories that are defined by an authority. |
+| [Regulation Category Code](RegulationCategoryCode.md) | A code used to identify a category of regulation. |
+| [Regulation Category Code List](RegulationCategoryCodeList.md) | A list of rule categories that are defined by an authority. |
+| [Regulation Context Code](RegulationContextCode.md) | A code indicating the context of a regulation that is associated with a code pair. |
 | [Regulatory Scope Code](RegulatoryScopeCode.md) | A code indicating the regulatory scope of a rule maker role. |
+| [Restriction Code](RestrictionCode.md) | A code indicating the specific type of restriction or requirements imposed by the regulation. |
 | [Road Surface Feature](RoadSurfaceFeature.md) | A traffic control device that changes the nature of the road surface, such as rumble strips or speed bumps. |
 | [Rule Maker Role](RuleMakerRole.md) | A Role that includes the responsibility for creating and maintaining rules of the road or regulations for a geographic and operational scope as defined by the parent jurisdictional entity. |
 | [Sign Destination](SignDestination.md) | A destination that is indicated on the road sign. |
-| [Simple Sign](SimpleSign.md) | A traffic control device that consists of a single message conveyed by a single pictogram. |
-| [Stand Alone Regulation Code](StandAloneRegulationCode.md) | A code indicating the type of regulation that does not require any supplemental information. |
+| [Stand Alone Restriction Code](StandAloneRestrictionCode.md) | A code indicating the type of regulation that does not require any supplemental information. |
+| [Supplemental Data Type Code](SupplementalDataTypeCode.md) | A code indicating the type of supplemental data required to interpret the current applicability of a regulation. |
+| [Suspect Status Code](SuspectStatusCode.md) | A code indicating if any information about the traffic regulation has been flagged as suspect. |
 | [Textual Regulation](TextualRegulation.md) | A textual regulation is a rule having the force of law that is established by a regulator through a traffic regulation order. |
-| [Threshold Regulation Code](ThresholdRegulationCode.md) | A code indicating the type of regulation that requires a threshold value. |
+| [Threshold Restriction Code](ThresholdRestrictionCode.md) | A code indicating the type of regulation that requires a threshold value. |
 | [Time Validity Condition](TimeValidityCondition.md) | A condition that applies to a specific location. |
 | [Traffic Control Device](TrafficControlDevice.md) | A device that is used to control traffic, such as a road sign, traffic signal, or pavement marking. |
 | [Traffic Regulation](TrafficRegulation.md) | A traffic regulation is a rule having the force of law that is established by a regulator through a traffic regulation order. |
@@ -106,6 +109,8 @@ A class to organize all classes defined in the Traffic Regulation topic area of 
 | [Traffic Signal](TrafficSignal.md) | A traffic control device that is used to control traffic flow at intersections or pedestrian crossings using lights. |
 | [Traffic Signal Device](TrafficSignalDevice.md) | A device that is used to control traffic signals, including traffic lights and warning beacons. |
 | [Tro Status Code](TroStatusCode.md) | A code indicating the lifecycle status of a traffic regulation order |
+| [Trustworthiness](Trustworthiness.md) | The trustworthiness of the supplemental data source. |
+| [Trustworthiness Code](TrustworthinessCode.md) | A code indicating the trustworthiness of the supplemental data source. |
 | [Versioned Condition](VersionedCondition.md) | A specific version of a condition that can be referenced by a ConditionReference. |
 | [Warning Beacon](WarningBeacon.md) | A device that is used to warn road users of potential hazards or to draw attention to specific conditions using lights or signals. |
 
@@ -119,5 +124,6 @@ A class to organize all classes defined in the Traffic Regulation topic area of 
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-43 |
 | [dash:abstract](https://w3id.org/citydata/imported/dash/abstract) | true |
 

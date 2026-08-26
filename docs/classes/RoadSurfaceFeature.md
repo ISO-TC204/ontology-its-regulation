@@ -4,6 +4,8 @@
 
 A traffic control device that changes the nature of the road surface, such as rumble strips or speed bumps.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/RoadSurfaceFeature`
+
 
 ## Diagram
 
@@ -100,4 +102,10 @@ A traffic control device that changes the nature of the road surface, such as ru
 | [roadSurfaceFeatureType](../properties/roadSurfaceFeatureType.md) | exactly 1 [RoadSurfaceFeatureTypeCode](https://w3id.org/itsdata/regulation/v1/RoadSurfaceFeatureTypeCode) |
 | subClassOf | [TrafficControlDevice](TrafficControlDevice.md) |
 | subClassOf | [its-location:LinearFeature](https://w3id.org/itsdata/location/v1/LinearFeature) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-45 |
 

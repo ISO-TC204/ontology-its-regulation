@@ -11,6 +11,7 @@ This pattern imports the following files:
 - [https://w3id.org/itsdata/location/v1/](https://w3id.org/itsdata/location/v1/)
 - [https://w3id.org/itsdata/regulation/v1/CorePattern](https://w3id.org/itsdata/regulation/v1/CorePattern)
 - [https://w3id.org/itsdata/regulation/v1/PermitPattern](https://w3id.org/itsdata/regulation/v1/PermitPattern)
+- [https://w3id.org/itsdata/t-user/v1/](https://w3id.org/itsdata/t-user/v1/)
 - [https://w3id.org/itsdata/time/v1/](https://w3id.org/itsdata/time/v1/)
 
 This pattern consists of the following classes:
@@ -22,17 +23,18 @@ This pattern consists of the following classes:
 - [Driver Category Code](DriverCategoryCode.md)
 - [Enumerated Condition](EnumeratedCondition.md)
 - [Legal Basis](LegalBasis.md)
+- [Legal Status Code](LegalStatusCode.md)
 - [Location Condition](LocationCondition.md)
 - [Logical Operator Code](LogicalOperatorCode.md)
 - [Measurable Condition](MeasurableCondition.md)
 - [Measurable Condition Code](MeasurableConditionCode.md)
-- [Non Vehicular Road User Code](NonVehicularRoadUserCode.md)
 - [Permit Required Condition](PermitRequiredCondition.md)
 - [Road Type Code](RoadTypeCode.md)
 - [Standing Or Parking Category Code](StandingOrParkingCategoryCode.md)
 - [Time Validity Condition](TimeValidityCondition.md)
 - [Tunnel Category Code](TunnelCategoryCode.md)
 - [Versioned Condition](VersionedCondition.md)
+
 This module defines the following properties:
 
 - [applicableLocation](../properties/applicableLocation.md)

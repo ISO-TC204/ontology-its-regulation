@@ -4,7 +4,19 @@
 
 The method by which the permit can be obtained.
 
-**Range**: [rdf:langString](https://w3id.org/citydata/imported/rdf/langString)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasApplicationInstructions`
+
+## Range
+
+| Class |
+|-------|
+| [rdf:langString](https://w3id.org/citydata/imported/rdf/langString) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,10 @@ The method by which the permit can be obtained.
 |-------|
 | [PermitApplicationInformation](../classes/PermitApplicationInformation.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasApplicationInstructions`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-92 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II howToObtainPermit |
+

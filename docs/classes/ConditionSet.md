@@ -4,6 +4,8 @@
 
 A composite condition that consists of two or more Conditions combined by a logical operator; the set must evaluate to true for the associated regulation(s) to currently apply.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/ConditionSet`
+
 
 ## Diagram
 
@@ -93,4 +95,10 @@ A composite condition that consists of two or more Conditions combined by a logi
 | [cdm1:hasComponent](https://w3id.org/citydata/part1/v1/hasComponent) | min 2 |
 | [logicalOperator](../properties/logicalOperator.md) | exactly 1 |
 | subClassOf | [Condition](Condition.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-15 |
 

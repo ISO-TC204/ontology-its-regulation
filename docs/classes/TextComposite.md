@@ -4,6 +4,8 @@
 
 An attribute that consists of text (multi-lingual string) on the default area of the main pictogram.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/TextComposite`
+
 
 ## Diagram
 
@@ -52,4 +54,10 @@ An attribute that consists of text (multi-lingual string) on the default area of
 | Property | Constraint |
 |----------|------------|
 | [compositeText](../properties/compositeText.md) | min 1 rdf:langString |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-54 |
 

@@ -4,6 +4,8 @@
 
 A traffic control device that is used to control traffic flow at intersections or pedestrian crossings using lights.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/TrafficSignal`
+
 
 ## Diagram
 
@@ -61,4 +63,10 @@ A traffic control device that is used to control traffic flow at intersections o
 | Property | Constraint |
 |----------|------------|
 | subClassOf | [TrafficSignalDevice](TrafficSignalDevice.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-61 |
 

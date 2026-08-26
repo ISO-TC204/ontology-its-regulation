@@ -4,6 +4,23 @@
 
 The type of weather condition that is subject to the regulation.
 
-**Range**: [its-weather:RoadWeatherConditionCode](https://w3id.org/itsdata/weather/v1/RoadWeatherConditionCode)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/forRoadWeatherConditionType`
+
+## Range
+
+| Class |
+|-------|
+| [its-weather:RoadWeatherConditionCode](https://w3id.org/itsdata/weather/v1/RoadWeatherConditionCode) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-147 |
+

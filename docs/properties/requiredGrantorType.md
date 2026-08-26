@@ -4,12 +4,23 @@
 
 The type of grantor of the permit that is required for the instance of the traffic regulation.
 
-**Range**: [PermitGrantorTypeCode](../classes/PermitGrantorTypeCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredGrantorType`
 
-## Used in classes
+## Range
 
 | Class |
 |-------|
-| [PermitRequiredCondition](../classes/PermitRequiredCondition.md) |
+| [PermitGrantorTypeCode](../classes/PermitGrantorTypeCode.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredGrantorType`
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-136 |
+

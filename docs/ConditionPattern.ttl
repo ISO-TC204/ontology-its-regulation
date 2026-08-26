@@ -10,9 +10,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix cdm1: <https://w3id.org/citydata/part1/v1/> .
 @prefix cdm2: <https://w3id.org/citydata/part2/v1/> .
+@prefix i72: <https://w3id.org/citydata/21972/v1/> .
 @prefix its-agent: <https://w3id.org/itsdata/agent/v1/> .
 @prefix its-core: <https://w3id.org/itsdata/core/v1/> .
 @prefix its-location: <https://w3id.org/itsdata/location/v1/> .
+@prefix its-t-user: <https://w3id.org/itsdata/t-user/v1/> .
 @prefix its-time: <https://w3id.org/itsdata/time/v1/> .
 @prefix its-weather: <https://w3id.org/itsdata/weather/v1/> .
 
@@ -27,6 +29,7 @@
     owl:imports                   its-agent: ;
     owl:imports                   its-location: ;
     owl:imports                   its-time: ;
+    owl:imports                   its-t-user: ;
     owl:imports                   :CorePattern ;
     owl:imports                   :PermitPattern ;
     skos:definition               "This ontology defines concepts related to traffic regulations."@en ;
@@ -58,13 +61,6 @@
     skos:example "learners, provisional (underage), commercial, etc."@en ;
     rdfs:seeAlso "DATEX-II DriverCondition" ;
     skos:editorialNote "DATEX-II DriverCondition seems to have multiple ways to convey the same information (e.g., learner as either a license characteristic or a driver characteristic). This proposed to move most of the 'driver characteristic' information to the PermitCondition class."@en .
-
-:NonVehicularRoadUserCode
-    rdf:type        owl:Class ;
-    rdfs:subClassOf :ConditionCode ;
-    skos:definition "A code that indicates categories of non-vehicular road users that can affect the applicability of a regulation."@en ;
-    skos:example "pedestrian, horse, cattle, etc."@en ;
-    rdfs:seeAlso "DATEX-II NonVehicularRoadUserTypeEnum".
 
 :RoadTypeCode
     rdf:type        owl:Class ;
@@ -178,7 +174,7 @@
     rdfs:subClassOf [
         rdf:type                    owl:Restriction ;
         owl:onProperty              :valueToCompare ;
-        owl:onClass                 cdm1:Measure ;
+        owl:onClass                 i72:Measure ;
         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger
     ] ;
     skos:definition "A condition that is based on a comparison between a measurable value and a threshold value."@en .
@@ -225,6 +221,12 @@
     rdfs:subClassOf :RegulationThing ;
     skos:definition "A legal basis provides references to the legal documents that authorize an entity to issue the types of regulations covered by a traffic regulation order."@en .
 
+:LegalStatusCode
+    rdf:type        owl:Class ;
+    rdfs:subClassOf :RegulationThing ;
+    rdfs:subClassOf its-core:Code ;
+    skos:definition "A code that indicates the legal status of a traffic regulation."@en ;
+    skos:example "primary offence (can be enforced as sole offence), secondary offence (can be enforced if another offence is enforceable), private (can be enforced by the private owner of the facility or in the case of a collision), etc."@en .
 # ================================================
 #                 Object properties
 # ================================================
@@ -262,7 +264,7 @@
 :forNonVehicularRoadUserType
     rdf:type            owl:ObjectProperty ;
     rdfs:subPropertyOf :RegulationObjectProperty ;
-    rdfs:range          :NonVehicularRoadUserCode ;
+    rdfs:range          its-t-user:NonVehicularRoadUserCode ;
     skos:definition "The type of non-vehicular road user that is subject to the regulation."@en .
 
 :forRoadType
@@ -365,7 +367,7 @@
 :valueToCompare
     rdf:type            owl:ObjectProperty ;
     rdfs:subPropertyOf :RegulationObjectProperty ;
-    rdfs:range          cdm1:Measure ;
+    rdfs:range          i72:Measure ;
     skos:definition "The threshold value to compare against the current value to determine the applicability of the regulation."@en .
 
 # ================================================

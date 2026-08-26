@@ -1,0 +1,24 @@
+// Diagram for RequiredSupplementalData
+digraph {
+	graph [overlap=false rankdir=TB splines=true]
+	node [fontname=Arial fontsize=12 margin=0 shape=none]
+	edge [fontname=Arial fontsize=11]
+	{
+		rank=source
+		MetrThing [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">MetrThing</TD></TR></TABLE>> URL="../MetrThing" margin=0]
+	}
+	RequiredSupplementalData [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">RequiredSupplementalData</TD></TR><TR><TD ALIGN="LEFT">source</TD></TR><TR><TD ALIGN="LEFT">type [1..*]</TD></TR></TABLE>> URL="../RequiredSupplementalData" margin=0]
+	{
+		rank=max
+	}
+	subgraph cluster_associated {
+		label="" style=invis
+		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]
+		SupplementalDataTypeCode [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">SupplementalDataTypeCode</TD></TR></TABLE>> URL="../SupplementalDataTypeCode" margin=0]
+	}
+	RequiredSupplementalData -> MetrThing [arrowhead=onormal style=solid]
+	RequiredSupplementalData -> Invis [style=invis]
+	Invis -> SupplementalDataTypeCode [style=invis]
+	SupplementalDataTypeCode [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">SupplementalDataTypeCode</TD></TR></TABLE>> URL="../SupplementalDataTypeCode" margin=0]
+	RequiredSupplementalData -> SupplementalDataTypeCode [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="4" BGCOLOR="white"><TR><TD ALIGN="CENTER">type</TD></TR><TR><TD ALIGN="CENTER">1</TD></TR></TABLE>> arrowhead=normal style=solid]
+}

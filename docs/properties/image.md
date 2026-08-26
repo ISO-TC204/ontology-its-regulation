@@ -4,7 +4,19 @@
 
 An image that is associated with the traffic control device.
 
-**Range**: [xsd:base64Binary](https://w3id.org/citydata/imported/xsd/base64Binary)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/image`
+
+## Range
+
+| Class |
+|-------|
+| [xsd:base64Binary](https://w3id.org/citydata/imported/xsd/base64Binary) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ An image that is associated with the traffic control device.
 |-------|
 | [TrafficControlDevice](../classes/TrafficControlDevice.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/image`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-112 |
+

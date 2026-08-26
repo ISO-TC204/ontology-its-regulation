@@ -5,3 +5,16 @@
 The type of entity that is permitted to use the permit.
 
 **IRI**: `https://w3id.org/itsdata/regulation/v1/permittedEntityType`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-129 |
+

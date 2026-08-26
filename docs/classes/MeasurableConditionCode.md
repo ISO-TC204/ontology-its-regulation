@@ -6,6 +6,8 @@ A code that indicates the type of measurable condition that is assessed, includi
 
 EXAMPLE: vehicle gross weight, vehicle height, vehicle speed, wind speed, number of occupants, driver age, time driver's license held, etc.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/MeasurableConditionCode`
+
 
 ## Diagram
 
@@ -68,5 +70,6 @@ EXAMPLE: vehicle gross weight, vehicle height, vehicle speed, wind speed, number
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-26 |
 | [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II WeightCharacteristic, HeightCharacteristic, LengthCharacteristic, WidthCharacteristic, HeaviestAxleWeightCharacteristic, NumberOfAxelsCharacteristic, OccupantCondition. |
 

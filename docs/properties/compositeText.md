@@ -4,7 +4,19 @@
 
 The text that is displayed with the traffic control device.
 
-**Range**: [rdf:langString](https://w3id.org/citydata/imported/rdf/langString)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/compositeText`
+
+## Range
+
+| Class |
+|-------|
+| [rdf:langString](https://w3id.org/citydata/imported/rdf/langString) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ The text that is displayed with the traffic control device.
 |-------|
 | [TextComposite](../classes/TextComposite.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/compositeText`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-148 |
+

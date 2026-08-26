@@ -5,3 +5,17 @@
 An object property to organize all object properties defined in the Traffic Regulation topic area of the ITS Ontology.
 
 **IRI**: `https://w3id.org/itsdata/regulation/v1/RegulationObjectProperty`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [its-core:ITSObjectProperty](https://w3id.org/itsdata/core/v1/ITSObjectProperty) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-42 |
+| [dash:abstract](https://w3id.org/citydata/imported/dash/abstract) | true |
+

@@ -1,0 +1,24 @@
+// Diagram for Trustworthiness
+digraph {
+	graph [overlap=false rankdir=TB splines=true]
+	node [fontname=Arial fontsize=12 margin=0 shape=none]
+	edge [fontname=Arial fontsize=11]
+	{
+		rank=source
+		RegulationThing [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">RegulationThing</TD></TR></TABLE>> URL="../RegulationThing" margin=0]
+	}
+	Trustworthiness [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">Trustworthiness</TD></TR></TABLE>> URL="../Trustworthiness" margin=0]
+	{
+		rank=max
+	}
+	subgraph cluster_associated {
+		label="" style=invis
+		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]
+		TrustworthinessCode [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">TrustworthinessCode</TD></TR></TABLE>> URL="../TrustworthinessCode" margin=0]
+	}
+	Trustworthiness -> RegulationThing [arrowhead=onormal style=solid]
+	Trustworthiness -> Invis [style=invis]
+	Invis -> TrustworthinessCode [style=invis]
+	TrustworthinessCode [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">TrustworthinessCode</TD></TR></TABLE>> URL="../TrustworthinessCode" margin=0]
+	Trustworthiness -> TrustworthinessCode [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="4" BGCOLOR="white"><TR><TD ALIGN="CENTER">hasOverallTrustworthiness</TD></TR></TABLE>> arrowhead=normal style=solid]
+}

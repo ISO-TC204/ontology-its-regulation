@@ -4,9 +4,25 @@
 
 A type of permit associated with the traffic regulation.
 
-**Domain**: [TrafficRegulation](../classes/TrafficRegulation.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasPermitType`
 
-**Range**: [PermitType](../classes/PermitType.md)
+## Domain
+
+| Class |
+|-------|
+| [TrafficRegulation](../classes/TrafficRegulation.md) |
+
+## Range
+
+| Class |
+|-------|
+| [PermitType](../classes/PermitType.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -15,4 +31,12 @@ A type of permit associated with the traffic regulation.
 | [TrafficRegulation](../classes/TrafficRegulation.md) |
 | [Permit](../classes/Permit.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasPermitType`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-108 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX II TrafficRegulation.permitInformation |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II permitType |
+| [skos:editorsNote](https://w3id.org/citydata/imported/skos/editorsNote) | It is unclear if this is needed; it seems as if the PermitCondition addresses permits in a more complete way. |
+

@@ -6,6 +6,8 @@ A code that indicates categories of standing or parking that can affect the appl
 
 EXAMPLE: electric vehicle charging, loading and unloading, kerbside only, verge also, etc.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/StandingOrParkingCategoryCode`
+
 
 ## Diagram
 
@@ -68,5 +70,6 @@ EXAMPLE: electric vehicle charging, loading and unloading, kerbside only, verge 
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-53 |
 | [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II StandingOrParkingConditionTypeEnum |
 

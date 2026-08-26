@@ -19,11 +19,11 @@ nav:
       - Driver Category Code: classes/DriverCategoryCode.md
       - Enumerated Condition: classes/EnumeratedCondition.md
       - Legal Basis: classes/LegalBasis.md
+      - Legal Status Code: classes/LegalStatusCode.md
       - Location Condition: classes/LocationCondition.md
       - Logical Operator Code: classes/LogicalOperatorCode.md
       - Measurable Condition: classes/MeasurableCondition.md
       - Measurable Condition Code: classes/MeasurableConditionCode.md
-      - Non Vehicular Road User Code: classes/NonVehicularRoadUserCode.md
       - Permit Required Condition: classes/PermitRequiredCondition.md
       - Road Type Code: classes/RoadTypeCode.md
       - Standing Or Parking Category Code: classes/StandingOrParkingCategoryCode.md
@@ -66,6 +66,15 @@ nav:
     - Properties:
       - RegulationDataProperty: properties/RegulationDataProperty.md
       - RegulationObjectProperty: properties/RegulationObjectProperty.md
+  - Enforcement Pattern:
+    - Enforcement Pattern Overview: classes/EnforcementPattern.md
+    - Classes:
+      - Composite Enforcement Method: classes/CompositeEnforcementMethod.md
+      - Driving Record Enforcement Method: classes/DrivingRecordEnforcementMethod.md
+      - Enforcement Method: classes/EnforcementMethod.md
+      - Financial Enforcement Method: classes/FinancialEnforcementMethod.md
+      - Immobilization Enforcement Method: classes/ImmobilizationEnforcementMethod.md
+      - Towing Enforcement Method: classes/TowingEnforcementMethod.md
   - Permit Pattern:
     - Permit Pattern Overview: classes/PermitPattern.md
     - Classes:
@@ -110,15 +119,14 @@ nav:
       - Access Control Type Code: classes/AccessControlTypeCode.md
       - Channelization Device: classes/ChannelizationDevice.md
       - Channelization Type Code: classes/ChannelizationTypeCode.md
-      - Composite Sign: classes/CompositeSign.md
       - Destination Info: classes/DestinationInfo.md
       - International Sign: classes/InternationalSign.md
       - Pavement Marking: classes/PavementMarking.md
       - Pavement Marking Type Code: classes/PavementMarkingTypeCode.md
       - Road Surface Feature: classes/RoadSurfaceFeature.md
       - Road Surface Feature Type Code: classes/RoadSurfaceFeatureTypeCode.md
+      - Sign Attribute: classes/SignAttribute.md
       - Sign Destination: classes/SignDestination.md
-      - Simple Sign: classes/SimpleSign.md
       - Text Composite: classes/TextComposite.md
       - Traffic Control Device: classes/TrafficControlDevice.md
       - Traffic Signal: classes/TrafficSignal.md
@@ -135,12 +143,13 @@ nav:
       - divergeHorizon: properties/divergeHorizon.md
       - divergeName: properties/divergeName.md
       - divergeRoute: properties/divergeRoute.md
+      - hasComponentSign: properties/hasComponentSign.md
+      - hasDetails: properties/hasDetails.md
       - image: properties/image.md
       - nationalSignId: properties/nationalSignId.md
       - pavementMarkingType: properties/pavementMarkingType.md
       - pictogram: properties/pictogram.md
       - roadSurfaceFeatureType: properties/roadSurfaceFeatureType.md
-      - simpleSignList: properties/simpleSignList.md
       - url: properties/url.md
   - Traffic Regulation Pattern:
     - Traffic Regulation Pattern Overview: classes/TrafficRegulationPattern.md
@@ -150,27 +159,43 @@ nav:
       - Coded Regulation: classes/CodedRegulation.md
       - Coded Regulation With Fee: classes/CodedRegulationWithFee.md
       - Coded Regulation With Threshold: classes/CodedRegulationWithThreshold.md
-      - Code Pair Regulation Code: classes/CodePairRegulationCode.md
-      - Context Regulation Code: classes/ContextRegulationCode.md
-      - Fee Regulation Code: classes/FeeRegulationCode.md
+      - Fee Restriction Code: classes/FeeRestrictionCode.md
       - Reason Code: classes/ReasonCode.md
-      - Regulation Code: classes/RegulationCode.md
-      - Regulation Code List: classes/RegulationCodeList.md
+      - Regulation Category Code: classes/RegulationCategoryCode.md
+      - Regulation Category Code List: classes/RegulationCategoryCodeList.md
+      - Regulation Context Code: classes/RegulationContextCode.md
       - Regulatory Scope Code: classes/RegulatoryScopeCode.md
+      - Required Supplemental Data: classes/RequiredSupplementalData.md
+      - Restriction Code: classes/RestrictionCode.md
       - Rule Maker Role: classes/RuleMakerRole.md
-      - Stand Alone Regulation Code: classes/StandAloneRegulationCode.md
+      - Stand Alone Restriction Code: classes/StandAloneRestrictionCode.md
+      - Supplemental Data Type Code: classes/SupplementalDataTypeCode.md
+      - Suspect Status Code: classes/SuspectStatusCode.md
       - Textual Regulation: classes/TextualRegulation.md
-      - Threshold Regulation Code: classes/ThresholdRegulationCode.md
+      - Threshold Restriction Code: classes/ThresholdRestrictionCode.md
       - Traffic Regulation: classes/TrafficRegulation.md
       - Traffic Regulation Order: classes/TrafficRegulationOrder.md
       - Tro Status Code: classes/TroStatusCode.md
+      - Trustworthiness: classes/Trustworthiness.md
+      - Trustworthiness Code: classes/TrustworthinessCode.md
     - Properties:
       - associatedTrafficControlDevice: properties/associatedTrafficControlDevice.md
       - authorizingTrafficRegulation: properties/authorizingTrafficRegulation.md
       - hasActivationStatus: properties/hasActivationStatus.md
       - hasAssociatedRestriction: properties/hasAssociatedRestriction.md
+      - hasContext: properties/hasContext.md
+      - hasFeeSchedule: properties/hasFeeSchedule.md
+      - hasInceptionDate: properties/hasInceptionDate.md
+      - hasOverallTrustworthiness: properties/hasOverallTrustworthiness.md
       - hasPermitType: properties/hasPermitType.md
+      - hasRegulationCategory: properties/hasRegulationCategory.md
+      - hasRestriction: properties/hasRestriction.md
+      - hasTerminationDate: properties/hasTerminationDate.md
+      - hasTextualRestriction: properties/hasTextualRestriction.md
+      - hasThreshold: properties/hasThreshold.md
+      - hasTrustworthiness: properties/hasTrustworthiness.md
       - issuedTro: properties/issuedTro.md
+      - isSuspect: properties/isSuspect.md
       - memberTrafficRegulation: properties/memberTrafficRegulation.md
       - reasonCode: properties/reasonCode.md
       - regulatoryScope: properties/regulatoryScope.md

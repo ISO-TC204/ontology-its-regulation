@@ -4,6 +4,8 @@
 
 Details about the application of the permit.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/PermitApplicationInformation`
+
 
 ## Diagram
 
@@ -137,4 +139,10 @@ Details about the application of the permit.
 | [hasRegistrationMachine](../properties/hasRegistrationMachine.md) | only [RegistrationMachine](https://w3id.org/itsdata/regulation/v1/RegistrationMachine) |
 | [isApplicationRequired](../properties/isApplicationRequired.md) | max 1 |
 | subClassOf | [RegulationThing](RegulationThing.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-31 |
 

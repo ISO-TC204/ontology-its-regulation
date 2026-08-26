@@ -4,7 +4,19 @@
 
 The operator used to compare the value to the threshold value.
 
-**Range**: [its-core:ComparisonOperatorCode](https://w3id.org/itsdata/core/v1/ComparisonOperatorCode)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/comparisonOperator`
+
+## Range
+
+| Class |
+|-------|
+| [its-core:ComparisonOperatorCode](https://w3id.org/itsdata/core/v1/ComparisonOperatorCode) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ The operator used to compare the value to the threshold value.
 |-------|
 | [MeasurableCondition](../classes/MeasurableCondition.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/comparisonOperator`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-73 |
+

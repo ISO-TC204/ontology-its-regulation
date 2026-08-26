@@ -4,6 +4,8 @@
 
 A code that indicates how the members of a ConditionSet are combined (for example AND, OR, XOR, NOT, etc.).
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/LogicalOperatorCode`
+
 
 ## Diagram
 
@@ -61,4 +63,10 @@ A code that indicates how the members of a ConditionSet are combined (for exampl
 | Property | Constraint |
 |----------|------------|
 | subClassOf | [its-core:Code](https://w3id.org/itsdata/core/v1/Code) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-24 |
 

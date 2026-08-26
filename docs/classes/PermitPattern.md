@@ -23,6 +23,7 @@ This pattern consists of the following classes:
 - [Permit Grantor Type Code](PermitGrantorTypeCode.md)
 - [Permit Type](PermitType.md)
 - [Registration Machine](RegistrationMachine.md)
+
 This module defines the following properties:
 
 - [grantsDesignation](../properties/grantsDesignation.md)

@@ -4,9 +4,25 @@
 
 The current lifecycle status of the instance of the containing class
 
-**Domain**: [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/troStatus`
 
-**Range**: [TroStatusCode](../classes/TroStatusCode.md)
+## Domain
+
+| Class |
+|-------|
+| [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
+
+## Range
+
+| Class |
+|-------|
+| [TroStatusCode](../classes/TroStatusCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -14,4 +30,10 @@ The current lifecycle status of the instance of the containing class
 |-------|
 | [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/troStatus`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-141 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II TrafficRegulationOrder.status |
+

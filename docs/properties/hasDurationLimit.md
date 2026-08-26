@@ -4,7 +4,19 @@
 
 The maximum duration of the permit.
 
-**Range**: [its-time:Duration](https://w3id.org/itsdata/time/v1/Duration)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasDurationLimit`
+
+## Range
+
+| Class |
+|-------|
+| [its-time:Duration](https://w3id.org/itsdata/time/v1/Duration) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,10 @@ The maximum duration of the permit.
 |-------|
 | [Permit](../classes/Permit.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasDurationLimit`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-102 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II maximumDurationOfPermit |
+

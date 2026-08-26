@@ -4,7 +4,19 @@
 
 A reason justifying the existence of the instance of the traffic regulation order
 
-**Range**: [ReasonCode](../classes/ReasonCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/reasonCode`
+
+## Range
+
+| Class |
+|-------|
+| [ReasonCode](../classes/ReasonCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ A reason justifying the existence of the instance of the traffic regulation orde
 |-------|
 | [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/reasonCode`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-131 |
+

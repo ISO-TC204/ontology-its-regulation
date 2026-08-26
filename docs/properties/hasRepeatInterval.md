@@ -4,7 +4,19 @@
 
 The minimum time to the next entry.
 
-**Range**: [its-time:Duration](https://w3id.org/itsdata/time/v1/Duration)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasRepeatInterval`
+
+## Range
+
+| Class |
+|-------|
+| [its-time:Duration](https://w3id.org/itsdata/time/v1/Duration) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,10 @@ The minimum time to the next entry.
 |-------|
 | [Permit](../classes/Permit.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasRepeatInterval`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-110 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II minimumTimeToNextEntry |
+

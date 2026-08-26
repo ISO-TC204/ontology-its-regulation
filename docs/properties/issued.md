@@ -4,7 +4,19 @@
 
 The date and time the permit was issued.
 
-**Range**: [xsd:dateTime](https://w3id.org/citydata/imported/xsd/dateTime)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/issued`
+
+## Range
+
+| Class |
+|-------|
+| [xsd:dateTime](https://w3id.org/citydata/imported/xsd/dateTime) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,10 @@ The date and time the permit was issued.
 |-------|
 | [Permit](../classes/Permit.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/issued`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-118 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II issued |
+

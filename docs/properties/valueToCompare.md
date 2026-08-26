@@ -4,12 +4,23 @@
 
 The threshold value to compare against the current value to determine the applicability of the regulation.
 
-**Range**: [cdm1:Measure](https://w3id.org/citydata/part1/v1/Measure)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/valueToCompare`
 
-## Used in classes
+## Range
 
 | Class |
 |-------|
-| [MeasurableCondition](../classes/MeasurableCondition.md) |
+| [i72:Measure](https://w3id.org/citydata/21972/v1/Measure) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/valueToCompare`
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-144 |
+

@@ -4,6 +4,23 @@
 
 The category of tunnel within which travel is taking place.
 
-**Range**: [TunnelCategoryCode](../classes/TunnelCategoryCode.md)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/forTunnelCategory`
+
+## Range
+
+| Class |
+|-------|
+| [TunnelCategoryCode](../classes/TunnelCategoryCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-86 |
+

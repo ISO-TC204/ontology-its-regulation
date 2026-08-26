@@ -4,7 +4,19 @@
 
 Indicates whether the condition is negated.
 
-**Range**: [xsd:boolean](https://w3id.org/citydata/imported/xsd/boolean)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/negate`
+
+## Range
+
+| Class |
+|-------|
+| [xsd:boolean](https://w3id.org/citydata/imported/xsd/boolean) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ Indicates whether the condition is negated.
 |-------|
 | [Condition](../classes/Condition.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/negate`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-125 |
+

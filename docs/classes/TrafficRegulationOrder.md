@@ -4,6 +4,8 @@
 
 A legally recognized document or publication issued to enact a specific traffic regulation or regulations by a competent authority.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/TrafficRegulationOrder`
+
 
 ## Diagram
 
@@ -252,4 +254,10 @@ A legally recognized document or publication issued to enact a specific traffic 
 | subClassOf | [RegulationThing](RegulationThing.md) |
 | subClassOf | [its-core:OfficialThing](https://w3id.org/itsdata/core/v1/OfficialThing) |
 | subClassOf | [its-core:VersionedThing](https://w3id.org/itsdata/core/v1/VersionedThing) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-60 |
 

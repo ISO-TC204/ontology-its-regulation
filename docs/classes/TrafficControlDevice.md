@@ -4,6 +4,8 @@
 
 A device that is used to control traffic, such as a road sign, traffic signal, or pavement marking.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/TrafficControlDevice`
+
 
 ## Diagram
 
@@ -88,11 +90,9 @@ A device that is used to control traffic, such as a road sign, traffic signal, o
 |-------|-------------|
 | [Access Control Device](AccessControlDevice.md) | A device that is used to control access to a specific area, such as a gate or barrier. |
 | [Channelization Device](ChannelizationDevice.md) | A device that is used to guide or direct traffic, such as a curb or a series of cones, barrels, or barricades. |
-| [Composite Sign](CompositeSign.md) | A single traffic-control unit whose content is an ordered sequence of one or more SimpleSigns, represented as an rdf:List: rdf:first is the main sign, and each rdf:rest step is the next panel in order (for example supplemental signs). |
 | [International Sign](InternationalSign.md) | A traffic control device that is used to convey information to road users, such as regulatory, warning, or guide signs. |
 | [Pavement Marking](PavementMarking.md) | A device that is used to mark the pavement, such as lines, symbols, or text. |
 | [Road Surface Feature](RoadSurfaceFeature.md) | A traffic control device that changes the nature of the road surface, such as rumble strips or speed bumps. |
-| [Simple Sign](SimpleSign.md) | A traffic control device that consists of a single message conveyed by a single pictogram. |
 | [Traffic Signal](TrafficSignal.md) | A traffic control device that is used to control traffic flow at intersections or pedestrian crossings using lights. |
 | [Traffic Signal Device](TrafficSignalDevice.md) | A device that is used to control traffic signals, including traffic lights and warning beacons. |
 | [Warning Beacon](WarningBeacon.md) | A device that is used to warn road users of potential hazards or to draw attention to specific conditions using lights or signals. |
@@ -112,5 +112,6 @@ A device that is used to control traffic, such as a road sign, traffic signal, o
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-58 |
 | [dash:abstract](https://w3id.org/citydata/imported/dash/abstract) | true |
 

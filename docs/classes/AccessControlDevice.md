@@ -4,6 +4,8 @@
 
 A device that is used to control access to a specific area, such as a gate or barrier.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/AccessControlDevice`
+
 
 ## Diagram
 
@@ -100,4 +102,10 @@ A device that is used to control access to a specific area, such as a gate or ba
 | [accessControlType](../properties/accessControlType.md) | exactly 1 [AccessControlTypeCode](https://w3id.org/itsdata/regulation/v1/AccessControlTypeCode) |
 | subClassOf | [TrafficControlDevice](TrafficControlDevice.md) |
 | subClassOf | [its-location:PointFeature](https://w3id.org/itsdata/location/v1/PointFeature) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-2 |
 

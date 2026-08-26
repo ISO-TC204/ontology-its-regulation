@@ -4,6 +4,8 @@
 
 An attribute that indicates destination information, such as distance to destination or direction to destination.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/DestinationInfo`
+
 
 ## Diagram
 
@@ -39,4 +41,10 @@ An attribute that indicates destination information, such as distance to destina
     ![DestinationInfo Diagram](../diagrams/DestinationInfo.dot.png)
 
 
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-17 |
 

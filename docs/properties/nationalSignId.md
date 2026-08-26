@@ -4,10 +4,29 @@
 
 The national sign identifier for the traffic control device.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/nationalSignId`
+
+## Range
+
+| Class |
+|-------|
+| [xsd:string](https://w3id.org/citydata/imported/xsd/string) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
+
 ## Used in classes
 
 | Class |
 |-------|
 | [InternationalSign](../classes/InternationalSign.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/nationalSignId`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-124 |
+

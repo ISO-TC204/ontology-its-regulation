@@ -4,6 +4,8 @@
 
 A code that indicates the type of road surface feature.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/RoadSurfaceFeatureTypeCode`
+
 
 ## Diagram
 
@@ -61,4 +63,10 @@ A code that indicates the type of road surface feature.
 | Property | Constraint |
 |----------|------------|
 | subClassOf | [its-core:Code](https://w3id.org/itsdata/core/v1/Code) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-46 |
 

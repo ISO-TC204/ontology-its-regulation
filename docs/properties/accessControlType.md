@@ -4,7 +4,19 @@
 
 A code that indicates the type of access control device.
 
-**Range**: [AccessControlTypeCode](../classes/AccessControlTypeCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/accessControlType`
+
+## Range includes
+
+| Class |
+|-------|
+| [AccessControlTypeCode](../classes/AccessControlTypeCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ A code that indicates the type of access control device.
 |-------|
 | [AccessControlDevice](../classes/AccessControlDevice.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/accessControlType`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-67 |
+

@@ -4,7 +4,19 @@
 
 A traffic regulation order issued by the entity.
 
-**Range**: [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/issuedTro`
+
+## Range
+
+| Class |
+|-------|
+| [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ A traffic regulation order issued by the entity.
 |-------|
 | [RuleMakerRole](../classes/RuleMakerRole.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/issuedTro`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-119 |
+

@@ -4,6 +4,24 @@
 
 Indicates whether the permit is location specific.
 
-**Range**: [xsd:boolean](https://w3id.org/citydata/imported/xsd/boolean)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/isLocationSpecific`
+
+## Range
+
+| Class |
+|-------|
+| [xsd:boolean](https://w3id.org/citydata/imported/xsd/boolean) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-117 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II locationRelatedPermit |
+

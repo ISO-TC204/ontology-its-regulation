@@ -4,6 +4,23 @@
 
 The type of restriction that regulates access to a facility.
 
-**Range**: [AccessCategoryCode](../classes/AccessCategoryCode.md)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/forAccessCategory`
+
+## Range
+
+| Class |
+|-------|
+| [AccessCategoryCode](../classes/AccessCategoryCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-80 |
+

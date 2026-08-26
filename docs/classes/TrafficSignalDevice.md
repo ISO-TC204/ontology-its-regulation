@@ -4,6 +4,8 @@
 
 A device that is used to control traffic signals, including traffic lights and warning beacons.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/TrafficSignalDevice`
+
 
 ## Diagram
 
@@ -90,5 +92,6 @@ A device that is used to control traffic signals, including traffic lights and w
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-62 |
 | [dash:abstract](https://w3id.org/citydata/imported/dash/abstract) | true |
 

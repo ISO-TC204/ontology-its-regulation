@@ -4,6 +4,23 @@
 
 The type of road upon which travel is taking place.
 
-**Range**: [RoadTypeCode](../classes/RoadTypeCode.md)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/forRoadType`
+
+## Range
+
+| Class |
+|-------|
+| [RoadTypeCode](../classes/RoadTypeCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-84 |
+

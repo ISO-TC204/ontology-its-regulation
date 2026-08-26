@@ -4,10 +4,23 @@
 
 The name of the point of interest (e.g., destination or current location for direction 0).
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/divergeName`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
 ## Used in classes
 
 | Class |
 |-------|
 | [SignDestination](../classes/SignDestination.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/divergeName`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-78 |
+

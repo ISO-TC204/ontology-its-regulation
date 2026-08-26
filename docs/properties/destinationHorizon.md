@@ -4,10 +4,23 @@
 
 The distance to the destination or the time to the destination.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/destinationHorizon`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
 ## Used in classes
 
 | Class |
 |-------|
 | [SignDestination](../classes/SignDestination.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/destinationHorizon`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-74 |
+

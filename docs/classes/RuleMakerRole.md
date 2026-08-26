@@ -4,6 +4,8 @@
 
 A Role that includes the responsibility for creating and maintaining rules of the road or regulations for a geographic and operational scope as defined by the parent jurisdictional entity.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/RuleMakerRole`
+
 
 ## Diagram
 
@@ -122,4 +124,10 @@ A Role that includes the responsibility for creating and maintaining rules of th
 | [regulatoryScope](../properties/regulatoryScope.md) | min 1 [RegulatoryScopeCode](https://w3id.org/itsdata/regulation/v1/RegulatoryScopeCode) |
 | subClassOf | [RegulationThing](RegulationThing.md) |
 | subClassOf | [its-agent:Role](https://w3id.org/itsdata/agent/v1/Role) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-49 |
 

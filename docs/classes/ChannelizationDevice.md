@@ -4,6 +4,8 @@
 
 A device that is used to guide or direct traffic, such as a curb or a series of cones, barrels, or barricades.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/ChannelizationDevice`
+
 
 ## Diagram
 
@@ -100,4 +102,10 @@ A device that is used to guide or direct traffic, such as a curb or a series of 
 | [channelizationType](../properties/channelizationType.md) | exactly 1 [ChannelizationTypeCode](https://w3id.org/itsdata/regulation/v1/ChannelizationTypeCode) |
 | subClassOf | [TrafficControlDevice](TrafficControlDevice.md) |
 | subClassOf | [its-location:LinearFeature](https://w3id.org/itsdata/location/v1/LinearFeature) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-5 |
 
