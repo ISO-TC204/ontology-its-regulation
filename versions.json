@@ -5,6 +5,13 @@
     "aliases": []
   },
   {
+    "version": "v0.0.3-alpha.3",
+    "title": "v0.0.3-alpha.3",
+    "aliases": [
+      "latest"
+    ]
+  },
+  {
     "version": "v0.0.3-alpha.2",
     "title": "v0.0.3-alpha.2",
     "aliases": []
@@ -12,9 +19,7 @@
   {
     "version": "v0.0.3-alpha.2-docs-2026-07-29",
     "title": "v0.0.3-alpha.2-docs-2026-07-29",
-    "aliases": [
-      "latest"
-    ]
+    "aliases": []
   },
   {
     "version": "v0.0.3-alpha.1",

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="User Entered Import Resolution" name="https://w3id.org/citydata/part1/v1/" uri="file:/Users/kvaughn/GitHub/ontology-cdm-p1/docs/5087-1.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/citydata/part2/" uri="file:/Users/kvaughn/GitHub/ontology-cdm-p2/docs/5087-2.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/citydata/part2/v1/" uri="file:/Users/kvaughn/GitHub/ontology-cdm-p2/docs/5087-2.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/time/v1/" uri="file:/Users/kvaughn/GitHub/ontology-its-time/docs/its-time.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/time/v1/SchedulePattern" uri="file:/Users/kvaughn/GitHub/ontology-its-time/docs/schedule-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/time/v1/FuzzyTimePattern" uri="file:/Users/kvaughn/GitHub/ontology-its-time/docs/fuzzy-time-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/time/v1/CorePattern" uri="file:/Users/kvaughn/GitHub/ontology-its-time/docs/core-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/location/v1/" uri="file:/Users/kvaughn/GitHub/ontology-its-location/docs/its-location.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/location/v1/LocationCorePattern" uri="file:/Users/kvaughn/GitHub/ontology-its-location/docs/core-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/location/v1/PointPattern" uri="file:/Users/kvaughn/GitHub/ontology-its-location/docs/point-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/location/v1/LinearPattern" uri="file:/Users/kvaughn/GitHub/ontology-its-location/docs/linear-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/location/v1/AreaPattern" uri="file:/Users/kvaughn/GitHub/ontology-its-location/docs/area-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/location/v1/ItineraryPattern" uri="file:/Users/kvaughn/GitHub/ontology-its-location/docs/itinerary-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/core/v1/CoreSHACL" uri="file:/Users/kvaughn/GitHub/ontology-its-core/docs/CoreSHACL.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/regulation/v1/ConditionVehicleAlignment" uri="ConditionVehicleAlignment.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/vehicle/v1/" uri="file:/Users/kvaughn/GitHub/ontology-its-vehicle/docs/its-vehicle.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/vehicle/v1/VehicleCharacteristicsPattern" uri="file:/Users/kvaughn/GitHub/ontology-its-vehicle/docs/vehicle-characteristics-pattern.ttl"/>
+    <uri id="User Entered Import Resolution" name="https://w3id.org/itsdata/core/v1/" uri="file:/Users/kvaughn/GitHub/ontology-its-core/docs/its-core.ttl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1772663055682" name="https://w3id.org/itsdata/regulation/" uri="itsRegulation.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1772663055682" name="https://w3id.org/itsdata/regulation/v1/" uri="itsRegulation.owl"/>
+        <uri name="http://www.opengis.net/ont/geosparql#" uri="file:/Users/kvaughn/GitHub/ontology-import-geo/docs/geo.ttl"/>
+    </group>
+</catalog>
