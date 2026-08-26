@@ -4,6 +4,8 @@
 
 A boolean condition that must evaluate to true for the associated regulation(s) to currently apply. Even if the condition is true, it is not active if it is currently overridden. The condition may be multi-part.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/Condition`
+
 
 ## Diagram
 
@@ -104,5 +106,6 @@ A boolean condition that must evaluate to true for the associated regulation(s) 
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-13 |
 | [dash:abstract](https://w3id.org/citydata/imported/dash/abstract) | true |
 

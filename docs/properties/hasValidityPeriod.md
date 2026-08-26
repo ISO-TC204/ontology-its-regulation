@@ -4,10 +4,24 @@
 
 The validity period of the permit.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasValidityPeriod`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
 ## Used in classes
 
 | Class |
 |-------|
 | [Permit](../classes/Permit.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasValidityPeriod`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-111 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II validityPeriod |
+

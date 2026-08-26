@@ -4,7 +4,19 @@
 
 The default repeat interval of the permit.
 
-**Range**: [its-time:Duration](https://w3id.org/itsdata/time/v1/Duration)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasDefaultRepeatInterval`
+
+## Range
+
+| Class |
+|-------|
+| [its-time:Duration](https://w3id.org/itsdata/time/v1/Duration) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,10 @@ The default repeat interval of the permit.
 |-------|
 | [PermitType](../classes/PermitType.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasDefaultRepeatInterval`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-100 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II defaultRepeatInterval |
+

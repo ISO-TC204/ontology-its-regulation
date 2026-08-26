@@ -4,10 +4,24 @@
 
 The default location of the permit.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasDefaultLocation`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
 ## Used in classes
 
 | Class |
 |-------|
 | [PermitType](../classes/PermitType.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasDefaultLocation`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-99 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II defaultLocation |
+

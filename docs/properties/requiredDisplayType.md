@@ -4,12 +4,23 @@
 
 The display type of the permit that is required for the instance of the traffic regulation.
 
-**Range**: [PermitDisplayTypeCode](../classes/PermitDisplayTypeCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredDisplayType`
 
-## Used in classes
+## Range
 
 | Class |
 |-------|
-| [PermitRequiredCondition](../classes/PermitRequiredCondition.md) |
+| [PermitDisplayTypeCode](../classes/PermitDisplayTypeCode.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredDisplayType`
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-134 |
+

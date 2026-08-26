@@ -6,6 +6,8 @@ A code indicating the regulatory scope of a rule maker role.
 
 EXAMPLE: general traffic regulations, parking regulations, commercial vehicle regulations, special event regulations
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/RegulatoryScopeCode`
+
 
 ## Diagram
 
@@ -80,4 +82,10 @@ EXAMPLE: general traffic regulations, parking regulations, commercial vehicle re
 |----------|------------|
 | subClassOf | [RegulationThing](RegulationThing.md) |
 | subClassOf | [cdm2:Code](https://w3id.org/citydata/part2/v1/Code) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-44 |
 

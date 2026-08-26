@@ -4,7 +4,19 @@
 
 The enumerated condition that affects the applicability of the regulation.
 
-**Range**: [ConditionCode](../classes/ConditionCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/forEnumeratedCondition`
+
+## Range
+
+| Class |
+|-------|
+| [ConditionCode](../classes/ConditionCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ The enumerated condition that affects the applicability of the regulation.
 |-------|
 | [EnumeratedCondition](../classes/EnumeratedCondition.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/forEnumeratedCondition`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-81 |
+

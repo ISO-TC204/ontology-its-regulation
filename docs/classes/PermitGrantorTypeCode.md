@@ -4,6 +4,8 @@
 
 A code that indicates the type of grantor of the permit.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/PermitGrantorTypeCode`
+
 
 ## Diagram
 
@@ -61,4 +63,10 @@ A code that indicates the type of grantor of the permit.
 | Property | Constraint |
 |----------|------------|
 | subClassOf | [RegulationThing](RegulationThing.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-35 |
 

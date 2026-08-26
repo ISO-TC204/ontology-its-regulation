@@ -4,6 +4,8 @@
 
 A device that is used to warn road users of potential hazards or to draw attention to specific conditions using lights or signals.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/WarningBeacon`
+
 
 ## Diagram
 
@@ -61,4 +63,10 @@ A device that is used to warn road users of potential hazards or to draw attenti
 | Property | Constraint |
 |----------|------------|
 | subClassOf | [TrafficSignalDevice](TrafficSignalDevice.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-66 |
 

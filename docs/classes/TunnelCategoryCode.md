@@ -6,6 +6,8 @@ A code that indicates categories of tunnels that can affect the applicability of
 
 EXAMPLE: no restrictions, restrictions for materials with very explosive properties, etc.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/TunnelCategoryCode`
+
 
 ## Diagram
 
@@ -68,5 +70,6 @@ EXAMPLE: no restrictions, restrictions for materials with very explosive propert
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-64 |
 | [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II ADRTunnelCategoryTypeEnum |
 

@@ -4,7 +4,19 @@
 
 The measurable condition that affects the applicability of the regulation.
 
-**Range**: [MeasurableConditionCode](../classes/MeasurableConditionCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/forMeasurableCondition`
+
+## Range
+
+| Class |
+|-------|
+| [MeasurableConditionCode](../classes/MeasurableConditionCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ The measurable condition that affects the applicability of the regulation.
 |-------|
 | [MeasurableCondition](../classes/MeasurableCondition.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/forMeasurableCondition`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-82 |
+

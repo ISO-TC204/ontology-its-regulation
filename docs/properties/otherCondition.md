@@ -4,7 +4,19 @@
 
 A separate condition that determines the applicability of the regulation.
 
-**Range**: [rdf:langString](https://w3id.org/citydata/imported/rdf/langString)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/otherCondition`
+
+## Range
+
+| Class |
+|-------|
+| [rdf:langString](https://w3id.org/citydata/imported/rdf/langString) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ A separate condition that determines the applicability of the regulation.
 |-------|
 | [EnumeratedCondition](../classes/EnumeratedCondition.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/otherCondition`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-126 |
+

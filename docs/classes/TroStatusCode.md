@@ -6,6 +6,8 @@ A code indicating the lifecycle status of a traffic regulation order
 
 EXAMPLE: madeAndImplemented, madeAndPartiallyImplemented, madeAndNotImplemented
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/TroStatusCode`
+
 
 ## Diagram
 
@@ -80,4 +82,10 @@ EXAMPLE: madeAndImplemented, madeAndPartiallyImplemented, madeAndNotImplemented
 |----------|------------|
 | subClassOf | [RegulationThing](RegulationThing.md) |
 | subClassOf | [cdm2:Code](https://w3id.org/citydata/part2/v1/Code) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-63 |
 

@@ -4,12 +4,23 @@
 
 The grantor of the permit that is required for the instance of the traffic regulation.
 
-**Range**: [cdm2:Organization](https://w3id.org/citydata/part2/v1/Organization)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredGrantor`
 
-## Used in classes
+## Range
 
 | Class |
 |-------|
-| [PermitRequiredCondition](../classes/PermitRequiredCondition.md) |
+| [cdm2:Organization](https://w3id.org/citydata/part2/v1/Organization) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredGrantor`
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-135 |
+

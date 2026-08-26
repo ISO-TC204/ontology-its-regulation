@@ -8,6 +8,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX cdm1: <https://w3id.org/citydata/part1/v1/>
 PREFIX cdm2: <https://w3id.org/citydata/part2/v1/>
 PREFIX its-core: <https://w3id.org/itsdata/core/v1/>
+PREFIX its-communications: <https://w3id.org/itsdata/communications/v1/>
 PREFIX its-time: <https://w3id.org/itsdata/time/v1/>
 PREFIX its-location: <https://w3id.org/itsdata/location/v1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -55,6 +56,47 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
     sh:property [
         sh:path :hasPermitType ;
         sh:class :PermitType ;
+    ] ;
+
+    sh:property [
+        sh:path :hasRegulationCategory ;
+        sh:node its-core:MinOneShape ;
+        sh:class :RegulationCategoryCode ;
+    ] ;
+    sh:property [
+        sh:path :requiresSupplementalData ;
+        sh:node its-core:UnlimitedShape ;
+        sh:class :RequiredSupplementalData ;
+    ] ;
+    sh:property [
+        sh:path :hasTrustworthiness ;
+        sh:node its-core:MaxOneShape ;
+        sh:class :Trustworthiness ;
+    ] ;
+    sh:property [
+        sh:path :hasEnforcementMethod ;
+        sh:node its-core:UnlimitedShape ;
+        sh:class :EnforcementMethod ;
+    ] ;
+    sh:property [
+        sh:path :hasLegalStatus ;
+        sh:node its-core:MinOneShape ;
+        sh:class :LegalStatusCode ;
+    ] ;
+    sh:property [
+        sh:path :hasInceptionDate ;
+        sh:node its-core:MaxOneShape ;
+        sh:class xsd:date;
+    ] ;
+    sh:property [
+        sh:path :hasTerminationDate ;
+        sh:node its-core:MaxOneShape ;
+        sh:class xsd:date;
+    ] ;
+    sh:property [
+        sh:path :isSuspect ;
+        sh:node its-core:MaxOneShape ;
+        sh:class :SuspectStatusCode ;
     ] .
 
 :TrafficRegulationOrderShape a sh:NodeShape ;
@@ -146,4 +188,27 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
         sh:path :regulatoryScope ;
         sh:node its-core:MinOneShape ;
         sh:class :RegulatoryScopeCode ;
+    ] .
+
+:RequiredSupplementalDataShape a sh:NodeShape ;
+    sh:targetClass :RequiredSupplementalData ;
+
+    sh:property [
+        sh:path :type ;
+        sh:node its-core:MinOneShape ;
+        sh:class :SupplementalDataTypeCode ;
+    ] ;
+    sh:property [
+        sh:path :source ;
+        sh:node its-core:UnlimitedShape ;
+        sh:class its-communications:TrustedCyberLocation ;
+    ] .
+
+    :TrustworthinessShape a sh:NodeShape ;
+    sh:targetClass :Trustworthiness ;
+
+    sh:property [
+        sh:path :hasOverallTrustworthiness ;
+        sh:node its-core:UnlimitedShape ;
+        sh:class :TrustworthinessCode ;
     ] .

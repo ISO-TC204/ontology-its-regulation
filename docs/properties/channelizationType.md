@@ -4,7 +4,19 @@
 
 A code that indicates the type of channelization device.
 
-**Range**: [ChannelizationTypeCode](../classes/ChannelizationTypeCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/channelizationType`
+
+## Range includes
+
+| Class |
+|-------|
+| [ChannelizationTypeCode](../classes/ChannelizationTypeCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ A code that indicates the type of channelization device.
 |-------|
 | [ChannelizationDevice](../classes/ChannelizationDevice.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/channelizationType`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-72 |
+

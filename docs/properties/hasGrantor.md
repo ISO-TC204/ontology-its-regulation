@@ -4,7 +4,19 @@
 
 The authority that is responsible for issuing the permit.
 
-**Range**: [cdm2:Organization](https://w3id.org/citydata/part2/v1/Organization)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasGrantor`
+
+## Range
+
+| Class |
+|-------|
+| [cdm2:Organization](https://w3id.org/citydata/part2/v1/Organization) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,10 @@ The authority that is responsible for issuing the permit.
 |-------|
 | [PermitType](../classes/PermitType.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasGrantor`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-105 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II hasIssuingAuthority |
+

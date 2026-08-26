@@ -4,6 +4,23 @@
 
 The category of standing or parking within which travel is taking place.
 
-**Range**: [StandingOrParkingCategoryCode](../classes/StandingOrParkingCategoryCode.md)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/forStandingOrParkingCategory`
+
+## Range
+
+| Class |
+|-------|
+| [StandingOrParkingCategoryCode](../classes/StandingOrParkingCategoryCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-85 |
+

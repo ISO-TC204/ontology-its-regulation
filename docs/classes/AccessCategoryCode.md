@@ -6,6 +6,8 @@ A code that indicates categories of access to a location that can affect the app
 
 EXAMPLE: local access, loading and unloading, etc.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/AccessCategoryCode`
+
 
 ## Diagram
 
@@ -68,6 +70,7 @@ EXAMPLE: local access, loading and unloading, etc.
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-1 |
 | [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II AccessConditionTypeEnum |
 | [skos:editorialNote](https://w3id.org/citydata/imported/skos/editorialNote) | DATEX-II AccessCondition also includes an otherAccessRestriction, which is handled by the EnumeratedCondition.otherCondition, and an applicableLocation, which can be handled by including a separate LocationCondition. |
 

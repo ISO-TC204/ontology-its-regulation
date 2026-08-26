@@ -4,12 +4,23 @@
 
 The designation of the permit that is required for the instance of the traffic regulation.
 
-**Range**: [PermitDesignationCode](../classes/PermitDesignationCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredDesignation`
 
-## Used in classes
+## Range
 
 | Class |
 |-------|
-| [PermitRequiredCondition](../classes/PermitRequiredCondition.md) |
+| [PermitDesignationCode](../classes/PermitDesignationCode.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredDesignation`
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-133 |
+

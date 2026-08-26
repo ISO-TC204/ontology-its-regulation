@@ -4,7 +4,19 @@
 
 formal authority within the law (e.g., statute, ordinance, administrative rule, constitutional provision) that empowers an entity to create, adopt, or enforce a regulation
 
-**Range**: [LegalBasis](../classes/LegalBasis.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasLegalBasis`
+
+## Range
+
+| Class |
+|-------|
+| [LegalBasis](../classes/LegalBasis.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -13,4 +25,9 @@ formal authority within the law (e.g., statute, ordinance, administrative rule, 
 | [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
 | [Condition](../classes/Condition.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasLegalBasis`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-107 |
+

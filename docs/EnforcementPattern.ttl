@@ -1,0 +1,74 @@
+@prefix : <https://w3id.org/itsdata/regulation/v1/> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cdm1: <https://w3id.org/citydata/part1/v1/> .
+@prefix cdm2: <https://w3id.org/citydata/part2/v1/> .
+@prefix its-agent: <https://w3id.org/itsdata/agent/v1/> .
+@prefix its-core: <https://w3id.org/itsdata/core/v1/> .
+@prefix its-location: <https://w3id.org/itsdata/location/v1/> .
+@prefix its-t-user: <https://w3id.org/itsdata/t-user/v1/> .
+@prefix its-time: <https://w3id.org/itsdata/time/v1/> .
+@prefix its-weather: <https://w3id.org/itsdata/weather/v1/> .
+
+:EnforcementPattern
+    rdf:type                      owl:Ontology ;
+    dcterms:creator               "Kenneth Vaughn" ;
+    dcterms:license               <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:modified              "2026-07-20T15:00:00Z"^^xsd:dateTime ;
+    dcterms:title                 "ITS Ontology - Regulation Topic Area - Enforcement Pattern"@en ;
+    its-core:draft                true ;
+    owl:imports                   cdm1: ;
+    owl:imports                   its-agent: ;
+    owl:imports                   its-location: ;
+    owl:imports                   its-time: ;
+    owl:imports                   its-t-user: ;
+    owl:imports                   :CorePattern ;
+    skos:definition               "This ontology defines concepts related to the enforcement of traffic regulations."@en ;
+    vann:preferredNamespacePrefix "its-regulation" ;
+    vann:preferredNamespaceUri    "https://w3id.org/itsdata/regulation/v1/" .
+
+# ================================================
+#                 Enforcement Code classes
+# ================================================
+
+:EnforcementMethod
+    rdf:type        owl:Class ;
+    rdfs:subClassOf its-core:OfficialThing ;
+    dash:abstract true ;
+    skos:definition "The enforcement method used to enforce a traffic regulation."@en ;
+    skos:example "enforcement officer, camera, sensor, etc."@en .
+
+:FinancialEnforcementMethod
+    rdf:type        owl:Class ;
+    rdfs:subClassOf :EnforcementMethod ;
+    skos:definition "A method of enforcing a traffic regulation that involves a financial penalty."@en ;
+    skos:example "fine"@en .
+
+:TowingEnforcementMethod
+    rdf:type        owl:Class ;
+    rdfs:subClassOf :EnforcementMethod ;
+    skos:definition "A method of enforcing a traffic regulation that involves towing a vehicle."@en .
+
+:DrivingRecordEnforcementMethod
+    rdf:type        owl:Class ;
+    rdfs:subClassOf :EnforcementMethod ;
+    skos:definition "A method of enforcing a traffic regulation that involves assigning demerits to a driver's driving record."@en .
+
+:CompositeEnforcementMethod
+    rdf:type        owl:Class ;
+    rdfs:subClassOf :EnforcementMethod ;
+    skos:definition "A method of enforcing a traffic regulation that involves a combination of enforcement methods."@en ;
+    skos:example "fine and towing"@en .
+
+:ImmobilizationEnforcementMethod
+    rdf:type        owl:Class ;
+    rdfs:subClassOf :EnforcementMethod ;
+    skos:definition "A method of enforcing a traffic regulation that involves immobilizing a vehicle."@en ;
+    skos:example "locking the wheels of a vehicle."@en .

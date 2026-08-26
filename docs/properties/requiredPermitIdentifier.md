@@ -4,12 +4,23 @@
 
 The identifier of the permit that is required for the instance of the traffic regulation.
 
-**Range**: [xsd:string](https://w3id.org/citydata/imported/xsd/string)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredPermitIdentifier`
 
-## Used in classes
+## Range
 
 | Class |
 |-------|
-| [PermitRequiredCondition](../classes/PermitRequiredCondition.md) |
+| [xsd:string](https://w3id.org/citydata/imported/xsd/string) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/requiredPermitIdentifier`
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-137 |
+

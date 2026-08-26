@@ -4,7 +4,19 @@
 
 The URL for the information about the permit.
 
-**Range**: [xsd:anyURI](https://w3id.org/citydata/imported/xsd/anyURI)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasInformationUrl`
+
+## Range
+
+| Class |
+|-------|
+| [xsd:anyURI](https://w3id.org/citydata/imported/xsd/anyURI) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,10 @@ The URL for the information about the permit.
 |-------|
 | [PermitApplicationInformation](../classes/PermitApplicationInformation.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasInformationUrl`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-106 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II urlForFurtherInformation |
+

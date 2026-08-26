@@ -4,6 +4,8 @@
 
 A condition that applies to a specific location.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/LocationCondition`
+
 
 ## Diagram
 
@@ -109,5 +111,6 @@ A condition that applies to a specific location.
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-23 |
 | [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II LocationCondition |
 

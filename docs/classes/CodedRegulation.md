@@ -4,6 +4,8 @@
 
 A restriction defined by a code.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/CodedRegulation`
+
 
 ## Diagram
 
@@ -47,26 +49,26 @@ A restriction defined by a code.
     </g>
     <!-- Invis -->
     <!-- CodedRegulation&#45;&gt;Invis -->
-    <!-- StandAloneRegulationCode -->
+    <!-- StandAloneRestrictionCode -->
     <g id="node4" class="node">
-    <title>StandAloneRegulationCode</title>
-    <g id="a_node4"><a xlink:href="../StandAloneRegulationCode" xlink:title="&lt;TABLE&gt;">
-    <polygon fill="lightgray" stroke="none" points="16.62,-25.88 16.62,-42.12 169.38,-42.12 169.38,-25.88 16.62,-25.88"/>
-    <text xml:space="preserve" text-anchor="start" x="17.62" y="-29.88" font-family="Arial" font-size="12.00">StandAloneRegulationCode</text>
-    <polygon fill="none" stroke="black" points="15.62,-24.88 15.62,-43.12 170.38,-43.12 170.38,-24.88 15.62,-24.88"/>
+    <title>StandAloneRestrictionCode</title>
+    <g id="a_node4"><a xlink:href="../StandAloneRestrictionCode" xlink:title="&lt;TABLE&gt;">
+    <polygon fill="lightgray" stroke="none" points="17.38,-25.88 17.38,-42.12 168.62,-42.12 168.62,-25.88 17.38,-25.88"/>
+    <text xml:space="preserve" text-anchor="start" x="18.38" y="-29.88" font-family="Arial" font-size="12.00">StandAloneRestrictionCode</text>
+    <polygon fill="none" stroke="black" points="16.38,-24.88 16.38,-43.12 169.62,-43.12 169.62,-24.88 16.38,-24.88"/>
     </a>
     </g>
     </g>
-    <!-- CodedRegulation&#45;&gt;StandAloneRegulationCode -->
+    <!-- CodedRegulation&#45;&gt;StandAloneRestrictionCode -->
     <g id="edge4" class="edge">
-    <title>CodedRegulation&#45;&gt;StandAloneRegulationCode</title>
+    <title>CodedRegulation&#45;&gt;StandAloneRestrictionCode</title>
     <path fill="none" stroke="black" d="M101.13,-169.08C102.23,-159.53 103.45,-147.37 104,-136.5 105.06,-115.42 106.12,-110 104,-89 103.14,-80.46 101.53,-71.27 99.8,-62.94"/>
     <polygon fill="black" stroke="black" points="103.26,-62.37 97.68,-53.37 96.43,-63.89 103.26,-62.37"/>
     <polygon fill="white" stroke="none" points="105.22,-89 105.22,-132 182.22,-132 182.22,-89 105.22,-89"/>
     <text xml:space="preserve" text-anchor="start" x="109.22" y="-117.5" font-family="Arial" font-size="11.00">hasRegulation</text>
     <text xml:space="preserve" text-anchor="start" x="140.72" y="-96" font-family="Arial" font-size="11.00">1</text>
     </g>
-    <!-- Invis&#45;&gt;StandAloneRegulationCode -->
+    <!-- Invis&#45;&gt;StandAloneRestrictionCode -->
     </g>
     </svg>
 
@@ -81,13 +83,14 @@ A restriction defined by a code.
 
 | Property | Constraint |
 |----------|------------|
-| hasRegulation | exactly 1 |
+| [hasRegulation](../properties/hasRegulation.md) | exactly 1 |
 | subClassOf | [TrafficRegulation](TrafficRegulation.md) |
 
 ## Other annotations
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-9 |
 | [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II RushHourLaneRestriction, HardShoulderRunningRestriction, AccessRestriction, DirectionRestriction, WalkingSpeed, MandatoryRoadOrCarriagewayOrLaneUsage, ProhibitionOfOvertaking, PriorityRule, StandingOrParkingControl, TrafficAhead, RoadWarning, AmbientWarning |
 | [skos:editorsNote](https://w3id.org/citydata/imported/skos/editorsNote) | DATEX-II also has attributes for respect bicycle, motorized personal transport devices, and pedestrians. These can be handled with associated traffic regulations. |
 

@@ -4,13 +4,29 @@
 
 The validity period for the condition as implemented.
 
-**Range**: [its-time:Schedule](https://w3id.org/itsdata/time/v1/Schedule)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/implementedValidity`
+
+## Range
+
+| Class |
+|-------|
+| [its-time:Schedule](https://w3id.org/itsdata/time/v1/Schedule) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
 | Class |
 |-------|
 | [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
-| [TimeValidityCondition](../classes/TimeValidityCondition.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/implementedValidity`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-114 |
+

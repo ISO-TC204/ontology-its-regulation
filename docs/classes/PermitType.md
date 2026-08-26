@@ -4,6 +4,8 @@
 
 A category of certificate that the grantor is able to issue to designate a grantee as a specific type of entity.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/PermitType`
+
 
 ## Diagram
 
@@ -229,4 +231,10 @@ A category of certificate that the grantor is able to issue to designate a grant
 | [hasGrantor](../properties/hasGrantor.md) | exactly 1 |
 | [hasGrantor](../properties/hasGrantor.md) | max 1 cdm2:Organization |
 | subClassOf | [RegulationThing](RegulationThing.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-37 |
 

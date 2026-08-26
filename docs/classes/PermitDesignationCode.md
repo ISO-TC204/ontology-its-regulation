@@ -4,6 +4,8 @@
 
 A code that indicates the designation of the permit.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/PermitDesignationCode`
+
 
 ## Diagram
 
@@ -61,4 +63,10 @@ A code that indicates the designation of the permit.
 | Property | Constraint |
 |----------|------------|
 | subClassOf | [RegulationThing](RegulationThing.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-32 |
 

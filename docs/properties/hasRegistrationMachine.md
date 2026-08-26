@@ -4,10 +4,23 @@
 
 A registration machine that is associated with the instance of the traffic regulation.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasRegistrationMachine`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
 ## Used in classes
 
 | Class |
 |-------|
 | [PermitApplicationInformation](../classes/PermitApplicationInformation.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasRegistrationMachine`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-109 |
+

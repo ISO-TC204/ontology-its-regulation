@@ -11,6 +11,7 @@ This pattern imports the following files:
 This pattern consists of the following classes:
 
 - [Regulation Thing](RegulationThing.md)
+
 This module defines the following properties:
 
 - [RegulationDataProperty](../properties/RegulationDataProperty.md)

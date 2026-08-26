@@ -4,6 +4,8 @@
 
 A device that is used to mark the pavement, such as lines, symbols, or text.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/PavementMarking`
+
 
 ## Diagram
 
@@ -100,4 +102,10 @@ A device that is used to mark the pavement, such as lines, symbols, or text.
 | [pavementMarkingType](../properties/pavementMarkingType.md) | exactly 1 [PavementMarkingTypeCode](https://w3id.org/itsdata/regulation/v1/PavementMarkingTypeCode) |
 | subClassOf | [TrafficControlDevice](TrafficControlDevice.md) |
 | subClassOf | [its-location:LinearFeature](https://w3id.org/itsdata/location/v1/LinearFeature) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-28 |
 

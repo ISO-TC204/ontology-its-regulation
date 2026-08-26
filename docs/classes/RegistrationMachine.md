@@ -4,6 +4,8 @@
 
 A machine that is used to register the permit.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/RegistrationMachine`
+
 
 ## Diagram
 
@@ -78,4 +80,10 @@ A machine that is used to register the permit.
 |----------|------------|
 | subClassOf | [RegulationThing](RegulationThing.md) |
 | subClassOf | [its-location:Feature](https://w3id.org/itsdata/location/v1/Feature) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-39 |
 

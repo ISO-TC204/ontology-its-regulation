@@ -4,6 +4,8 @@
 
 A code that indicates the enumerated types of conditions that affect the applicability of a regulation.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/ConditionCode`
+
 
 ## Diagram
 
@@ -62,18 +64,17 @@ A code that indicates the enumerated types of conditions that affect the applica
 |-------|-------------|
 | [Access Category Code](AccessCategoryCode.md) | A code that indicates categories of access to a location that can affect the applicability of a regulation. |
 | [Driver Category Code](DriverCategoryCode.md) | A code that indicates categories of drivers that can affect the applicability of a regulation. |
-| [Emission Level Code](https://w3id.org/itsdata/vehicle/v1/EmissionLevelCode)[^alignment] |  |
-| [Fuel Type Code](https://w3id.org/itsdata/vehicle/v1/FuelTypeCode)[^alignment] |  |
-| [Goods Type Code](https://w3id.org/itsdata/vehicle/v1/GoodsTypeCode)[^alignment] |  |
-| [Load Type Code](https://w3id.org/itsdata/vehicle/v1/LoadTypeCode)[^alignment] |  |
-| [Non Vehicular Road User Code](NonVehicularRoadUserCode.md) | A code that indicates categories of non-vehicular road users that can affect the applicability of a regulation. |
+| [Emission Level Code](https://w3id.org/itsdata/vehicle/v1/EmissionLevelCode)[^alignment] | A code that indicates the emission level of a vehicle. |
+| [Fuel Type Code](https://w3id.org/itsdata/vehicle/v1/FuelTypeCode)[^alignment] | A code that indicates the type of fuel that is used by a vehicle. |
+| [Goods Type Code](https://w3id.org/itsdata/vehicle/v1/GoodsTypeCode)[^alignment] | A code that indicates the type of goods (especially hazardous goods) that is carried by a vehicle. |
+| [Load Type Code](https://w3id.org/itsdata/vehicle/v1/LoadTypeCode)[^alignment] | A code that indicates categories of load types that can affect the applicability of a regulation. |
 | [Road Type Code](RoadTypeCode.md) | A code that indicates categories of roads that can affect the applicability of a regulation. |
 | [Road Weather Condition Code](https://w3id.org/itsdata/weather/v1/RoadWeatherConditionCode)[^alignment] |  |
 | [Standing Or Parking Category Code](StandingOrParkingCategoryCode.md) | A code that indicates categories of standing or parking that can affect the applicability of a regulation. |
 | [Tunnel Category Code](TunnelCategoryCode.md) | A code that indicates categories of tunnels that can affect the applicability of a regulation. |
-| [Vehicle Equipment Code](https://w3id.org/itsdata/vehicle/v1/VehicleEquipmentCode)[^alignment] |  |
-| [Vehicle Type Code](https://w3id.org/itsdata/vehicle/v1/VehicleTypeCode)[^alignment] |  |
-| [Vehicle Usage Code](https://w3id.org/itsdata/vehicle/v1/VehicleUsageCode)[^alignment] |  |
+| [Vehicle Equipment Code](https://w3id.org/itsdata/vehicle/v1/VehicleEquipmentCode)[^alignment] | A code that indicates the type of equipment that is carried by a vehicle. |
+| [Vehicle Type Code](https://w3id.org/itsdata/vehicle/v1/VehicleTypeCode)[^alignment] | A code that indicates the type of vehicle. |
+| [Vehicle Usage Code](https://w3id.org/itsdata/vehicle/v1/VehicleUsageCode)[^alignment] | A code that indicates the usage of a vehicle. |
 
 [^alignment]: Specialization asserted by this ontology via alignment; the class is defined in an external ontology and is not declared as a specialization of this class there.
 
@@ -87,5 +88,6 @@ A code that indicates the enumerated types of conditions that affect the applica
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-14 |
 | [dash:abstract](https://w3id.org/citydata/imported/dash/abstract) | true |
 

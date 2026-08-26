@@ -4,10 +4,24 @@
 
 The type of entity that is granted the permit.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasGranteeType`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
 ## Used in classes
 
 | Class |
 |-------|
 | [PermitType](../classes/PermitType.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasGranteeType`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-104 |
+| [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II permitOwnerType |
+

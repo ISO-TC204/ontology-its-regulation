@@ -21,5 +21,6 @@
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
         <uri id="Automatically generated entry, Timestamp=1772663055682" name="https://w3id.org/itsdata/regulation/" uri="itsRegulation.rdf"/>
         <uri id="Automatically generated entry, Timestamp=1772663055682" name="https://w3id.org/itsdata/regulation/v1/" uri="itsRegulation.owl"/>
-        <uri name="http://www.opengis.net/ont/geosparql#" uri="file:/Users/kvaughn/GitHub/ontology-import-geo/docs/geo.ttl"/>    </group>
+        <uri name="http://www.opengis.net/ont/geosparql#" uri="file:/Users/kvaughn/GitHub/ontology-import-geo/docs/geo.ttl"/>
+    </group>
 </catalog>

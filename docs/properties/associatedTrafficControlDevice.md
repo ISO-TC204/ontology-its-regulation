@@ -4,7 +4,19 @@
 
 A traffic control device associated with the instance of the traffic regulation.
 
-**Range**: [TrafficControlDevice](../classes/TrafficControlDevice.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/associatedTrafficControlDevice`
+
+## Range includes
+
+| Class |
+|-------|
+| [TrafficControlDevice](../classes/TrafficControlDevice.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ A traffic control device associated with the instance of the traffic regulation.
 |-------|
 | [TrafficRegulation](../classes/TrafficRegulation.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/associatedTrafficControlDevice`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-70 |
+

@@ -4,6 +4,8 @@
 
 A code that indicates the type of access control device.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/AccessControlTypeCode`
+
 
 ## Diagram
 
@@ -61,4 +63,10 @@ A code that indicates the type of access control device.
 | Property | Constraint |
 |----------|------------|
 | subClassOf | [its-core:Code](https://w3id.org/itsdata/core/v1/Code) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-3 |
 

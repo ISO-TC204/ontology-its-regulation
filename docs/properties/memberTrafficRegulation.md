@@ -4,9 +4,25 @@
 
 A traffic regulation enacted by the traffic regulation order.
 
-**Domain**: [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/memberTrafficRegulation`
 
-**Range**: [TrafficRegulation](../classes/TrafficRegulation.md)
+## Domain
+
+| Class |
+|-------|
+| [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
+
+## Range
+
+| Class |
+|-------|
+| [TrafficRegulation](../classes/TrafficRegulation.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -14,4 +30,9 @@ A traffic regulation enacted by the traffic regulation order.
 |-------|
 | [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/memberTrafficRegulation`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-123 |
+

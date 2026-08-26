@@ -4,10 +4,23 @@
 
 A direction that is indicated on the road sign.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/arrowDirection`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
 ## Used in classes
 
 | Class |
 |-------|
 | [SignDestination](../classes/SignDestination.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/arrowDirection`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-69 |
+

@@ -4,7 +4,19 @@
 
 The location where the regulation was implemented (e.g., with traffic control devices).
 
-**Range**: [its-location:Feature](https://w3id.org/itsdata/location/v1/Feature)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/implementedLocation`
+
+## Range
+
+| Class |
+|-------|
+| [its-location:Feature](https://w3id.org/itsdata/location/v1/Feature) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -13,4 +25,9 @@ The location where the regulation was implemented (e.g., with traffic control de
 | [TrafficRegulationOrder](../classes/TrafficRegulationOrder.md) |
 | [LocationCondition](../classes/LocationCondition.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/implementedLocation`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-113 |
+

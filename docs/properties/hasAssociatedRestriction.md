@@ -4,9 +4,25 @@
 
 A restriction associated with the traffic regulation.
 
-**Domain**: [TrafficRegulation](../classes/TrafficRegulation.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/hasAssociatedRestriction`
 
-**Range**: [TrafficRegulation](../classes/TrafficRegulation.md)
+## Domain
+
+| Class |
+|-------|
+| [TrafficRegulation](../classes/TrafficRegulation.md) |
+
+## Range
+
+| Class |
+|-------|
+| [TrafficRegulation](../classes/TrafficRegulation.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -14,4 +30,9 @@ A restriction associated with the traffic regulation.
 |-------|
 | [TrafficRegulation](../classes/TrafficRegulation.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/hasAssociatedRestriction`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-95 |
+

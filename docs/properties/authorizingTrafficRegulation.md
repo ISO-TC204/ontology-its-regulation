@@ -4,8 +4,29 @@
 
 A traffic regulation that authorizes the instance of the traffic control device.
 
-**Domain**: [TrafficControlDevice](../classes/TrafficControlDevice.md)
-
-**Range**: [TrafficRegulation](../classes/TrafficRegulation.md)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/authorizingTrafficRegulation`
+
+## Domain includes
+
+| Class |
+|-------|
+| [TrafficControlDevice](../classes/TrafficControlDevice.md) |
+
+## Range includes
+
+| Class |
+|-------|
+| [TrafficRegulation](../classes/TrafficRegulation.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-71 |
+

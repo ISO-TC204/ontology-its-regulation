@@ -6,6 +6,8 @@ A code that indicates categories of roads that can affect the applicability of a
 
 EXAMPLE: gravel, paved, urban, rural, motorway, etc.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/RoadTypeCode`
+
 
 ## Diagram
 
@@ -68,5 +70,6 @@ EXAMPLE: gravel, paved, urban, rural, motorway, etc.
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-47 |
 | [rdfs:seeAlso](https://w3id.org/citydata/imported/rdfs/seeAlso) | DATEX-II RoadTypeEnum |
 

@@ -4,7 +4,19 @@
 
 Indication of the types of regulations that can be enacted by the rule maker.
 
-**Range**: [RegulatoryScopeCode](../classes/RegulatoryScopeCode.md)
+**IRI**: `https://w3id.org/itsdata/regulation/v1/regulatoryScope`
+
+## Range
+
+| Class |
+|-------|
+| [RegulatoryScopeCode](../classes/RegulatoryScopeCode.md) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
 
 ## Used in classes
 
@@ -12,4 +24,9 @@ Indication of the types of regulations that can be enacted by the rule maker.
 |-------|
 | [RuleMakerRole](../classes/RuleMakerRole.md) |
 
-**IRI**: `https://w3id.org/itsdata/regulation/v1/regulatoryScope`
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-132 |
+

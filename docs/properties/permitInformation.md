@@ -5,3 +5,16 @@
 Information about any permits that are associated with the regulation.
 
 **IRI**: `https://w3id.org/itsdata/regulation/v1/permitInformation`
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-128 |
+

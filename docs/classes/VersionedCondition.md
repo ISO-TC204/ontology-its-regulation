@@ -4,6 +4,8 @@
 
 A specific version of a condition that can be referenced by a ConditionReference.
 
+**IRI**: `https://w3id.org/itsdata/regulation/v1/VersionedCondition`
+
 
 ## Diagram
 
@@ -83,6 +85,7 @@ A specific version of a condition that can be referenced by a ConditionReference
 
 | Property | Value |
 |----------|-------|
+| ReqView ID | its-regulation-65 |
 | [dash:abstract](https://w3id.org/citydata/imported/dash/abstract) | true |
 | [skos:editorialNote](https://w3id.org/citydata/imported/skos/editorialNote) | DATEX-II defines a ConditionReference class, but it seems incomplete as it references a non-existent PredefinedCondition class. |
 

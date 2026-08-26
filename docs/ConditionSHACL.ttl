@@ -100,7 +100,7 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
     sh:property [
         sh:path :valueToCompare ;
         sh:node its-core:ExactlyOneShape ;
-        sh:class cdm1:Measure ;
+        sh:class i72:Measure ;
     ] .
 
 :PermitRequiredConditionShape a sh:NodeShape ;

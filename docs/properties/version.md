@@ -4,6 +4,23 @@
 
 The version of the object.
 
-**Range**: [xsd:string](https://w3id.org/citydata/imported/xsd/string)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/version`
+
+## Range
+
+| Class |
+|-------|
+| [xsd:string](https://w3id.org/citydata/imported/xsd/string) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationDataProperty](RegulationDataProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-145 |
+

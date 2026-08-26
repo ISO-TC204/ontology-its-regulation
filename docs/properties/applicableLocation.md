@@ -4,6 +4,23 @@
 
 The location associated with the condition.
 
-**Range**: [its-location:Feature](https://w3id.org/itsdata/location/v1/Feature)
-
 **IRI**: `https://w3id.org/itsdata/regulation/v1/applicableLocation`
+
+## Range
+
+| Class |
+|-------|
+| [its-location:Feature](https://w3id.org/itsdata/location/v1/Feature) |
+
+## Superordinate property
+
+| Property |
+|-------|
+| [RegulationObjectProperty](RegulationObjectProperty.md) |
+
+## Other annotations
+
+| Property | Value |
+|----------|-------|
+| ReqView ID | its-regulation-68 |
+
