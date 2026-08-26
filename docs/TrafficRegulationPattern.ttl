@@ -19,7 +19,7 @@
 :TrafficRegulationPattern
     dcterms:creator               "Kenneth Vaughn"@en ;
     dcterms:license               <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified              "2026-05-06T19:57:16Z"^^xsd:dateTime ;
+    dcterms:modified              "2026-08-26"^^xsd:date ;
     dcterms:title                 "The Traffic Regulation Pattern of the Traffic Regulation Ontology"@en ;
     its-core:draft                true ;
     owl:imports                   :CorePattern ;

@@ -22,7 +22,7 @@
     rdf:type                      owl:Ontology ;
     dcterms:creator               "Kenneth Vaughn" ;
     dcterms:license               <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified              "2026-07-20T15:00:00Z"^^xsd:dateTime ;
+    dcterms:modified              "2026-08-26"^^xsd:date ;
     dcterms:title                 "Traffic Regulation Ontology"@en ;
     its-core:draft                true ;
     owl:imports                   cdm1: ;

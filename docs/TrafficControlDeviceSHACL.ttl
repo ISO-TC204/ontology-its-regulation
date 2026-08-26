@@ -16,6 +16,7 @@ PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX vann: <http://purl.org/vocab/vann/>
 
 :TrafficControlDeviceSHACL a owl:Ontology ;
+    dcterms:modified               "2026-08-26"^^xsd:date ;
     dcterms:title "SHACL constraints for the Traffic Control Device pattern"@en ;
     skos:definition "Validation shapes for traffic control device concepts."@en ;
     owl:imports <https://w3id.org/itsdata/core/v1/CoreSHACL> ;
